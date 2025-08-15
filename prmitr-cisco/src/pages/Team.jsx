@@ -6,8 +6,8 @@ function Group({title, people}){
   return (
     <>
       <h3 style={{marginTop:10}}>{title}</h3>
-      <div className="grid">
-        {people.map((p,i)=> <TeamCard key={p.email || p.name + i} p={p} />)}
+      <div className="team-grid">
+        {people.map(p => <TeamCard key={p.id} p={p} />)}
       </div>
     </>
   )
