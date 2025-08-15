@@ -1,3 +1,4 @@
+// src/data/team.js
 export const team = {
   core: [
     {

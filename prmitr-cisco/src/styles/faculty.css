@@ -1,0 +1,52 @@
+.faculty-section {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #f0f4f8 0%, #eaf2f8 100%);
+  text-align: center;
+}
+
+.faculty-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0a66c2;
+  margin-bottom: 40px;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.faculty-card {
+  background: transparent;
+  border: 2px solid rgba(10, 102, 194, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.faculty-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #0a66c2;
+}
+
+.faculty-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #0a66c2;
+}
+
+.faculty-role {
+  color: #444;
+  font-size: 0.95rem;
+}

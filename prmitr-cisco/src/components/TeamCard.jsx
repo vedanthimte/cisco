@@ -1,34 +1,29 @@
-import Card from './Card.jsx'
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
-export default function TeamCard({ p }) {
-  const initials = p?.name ? p.name.split(' ').map(w => w[0]).slice(0,2).join('') : ''
+export default function TeamCard({ name, role, bio, image, links }) {
   return (
-    <Card>
-      <div className="row" style={{gap:14, alignItems:'flex-start'}}>
-        {/* image (public path) or fallback initials */}
-        {p?.image ? (
-          <img
-            src={p.image}
-            alt={p.name}
-            style={{width:72, height:72, borderRadius:12, objectFit:'cover', flex:'0 0 auto'}}
-          />
-        ) : (
-          <div style={{
-            width:72, height:72, borderRadius:12,
-            background:'linear-gradient(135deg,#0e2241,#16345e)',
-            display:'grid', placeItems:'center', fontWeight:800, flex:'0 0 auto'
-          }}>
-            {initials}
-          </div>
+    <div className="team-card">
+      <img src={image} alt={name} className="team-image" />
+      <h3 className="team-name">{name}</h3>
+      <p className="team-role">{role}</p>
+      <p className="team-bio">{bio}</p>
+      <div className="team-links">
+        {links?.linkedin && (
+          <a href={links.linkedin} target="_blank" rel="noreferrer">
+            <FaLinkedin />
+          </a>
         )}
-
-        <div style={{flex:1}}>
-          <h3 style={{margin:'2px 0'}}>{p.name}</h3>
-          <div className="mono">{p.role}</div>
-          {p.bio && <p style={{marginTop:8, marginBottom:6}}>{p.bio}</p>}
-          {p.email && <div className="mono" style={{marginTop:6}}>{p.email}</div>}
-        </div>
+        {links?.github && (
+          <a href={links.github} target="_blank" rel="noreferrer">
+            <FaGithub />
+          </a>
+        )}
+        {links?.twitter && (
+          <a href={links.twitter} target="_blank" rel="noreferrer">
+            <FaTwitter />
+          </a>
+        )}
       </div>
-    </Card>
-  )
+    </div>
+  );
 }

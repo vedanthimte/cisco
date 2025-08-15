@@ -1,24 +1,31 @@
-import Section from '../components/Section.jsx'
-import TeamCard from '../components/TeamCard.jsx'
-import { team } from '../data/team.js'
+import SectionTitle from "../components/SectionTitle";
+import TeamCard from "../components/TeamCard";
+import { coreTeam, teamLeads, teamMembers } from "../data/teamData";
+import "../styles/team.css";
 
-function Group({title, people}){
+export default function Team() {
   return (
-    <>
-      <h3 style={{marginTop:10}}>{title}</h3>
+    <section className="team-section">
+      <SectionTitle title="Core Team" />
       <div className="team-grid">
-        {people.map(p => <TeamCard key={p.id} p={p} />)}
+        {coreTeam.map((member, idx) => (
+          <TeamCard key={idx} {...member} />
+        ))}
       </div>
-    </>
-  )
-}
 
-export default function Team(){
-  return (
-    <Section title="Our Team" subtitle="Core, Leads, and Members who make it happen.">
-      <Group title="Core" people={team.core} />
-      <Group title="Leads" people={team.lead} />
-      <Group title="Members" people={team.member} />
-    </Section>
-  )
+      <SectionTitle title="Team Leads" />
+      <div className="team-grid">
+        {teamLeads.map((member, idx) => (
+          <TeamCard key={idx} {...member} />
+        ))}
+      </div>
+
+      <SectionTitle title="Team Members" />
+      <div className="team-grid">
+        {teamMembers.map((member, idx) => (
+          <TeamCard key={idx} {...member} />
+        ))}
+      </div>
+    </section>
+  );
 }

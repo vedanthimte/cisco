@@ -7,6 +7,7 @@ import { site } from '../data/site.js'
 import { splitEvents } from '../data/events.js'
 import { posts } from '../data/blog.js'
 import { courses } from '../data/courses.js'
+import FacultySection from "../components/FacultySection";
 
 export default function Home(){
   const { upcoming } = splitEvents()
@@ -26,6 +27,7 @@ export default function Home(){
           {upcoming.length === 0 && <div className="mono">No upcoming events right now.</div>}
         </div>
       </Section>
+      <FacultySection />
       <Section title="Popular Courses" subtitle="Start free, upgrade anytime.">
         <div className="grid">
           {courses.free.slice(0,2).map(c => <CourseCard key={c.id} c={c} />)}
