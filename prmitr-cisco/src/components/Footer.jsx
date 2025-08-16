@@ -1,6 +1,6 @@
 import { site } from '../data/site.js'
 import { Link } from 'react-router-dom'
-import { FaXTwitter, FaLinkedin, FaGithub } from 'react-icons/fa6'
+import { FaInstagram , FaLinkedin  } from 'react-icons/fa6'
 
 export default function Footer(){
   return (
@@ -18,9 +18,9 @@ export default function Footer(){
             {site.location}<br/>{site.email} · {site.phone}
           </div>
           <div className="row" style={{marginTop:10}}>
-            <a className="mono" href={site.socials.x}><FaXTwitter/></a>
+            <a className="mono" href={site.socials.insta}><FaInstagram  /></a>
             <a className="mono" href={site.socials.linkedin}><FaLinkedin/></a>
-            <a className="mono" href={site.socials.github}><FaGithub/></a>
+            <a className="mono" href={site.socials.cisco}><FaInstagram /></a>
           </div>
         </div>
         <div className="footer-col footer-links">

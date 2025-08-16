@@ -21,13 +21,13 @@ export default function Home(){
           ))}
         </div>
       </div>
+      <FacultySection />
       <Section title="Upcoming Events" subtitle="Join our next sessions and hack nights.">
         <div className="grid">
           {upcoming.slice(0,3).map(e => <EventCard key={e.id} e={e} />)}
           {upcoming.length === 0 && <div className="mono">No upcoming events right now.</div>}
         </div>
       </Section>
-      <FacultySection />
       <Section title="Popular Courses" subtitle="Start free, upgrade anytime.">
         <div className="grid">
           {courses.free.slice(0,2).map(c => <CourseCard key={c.id} c={c} />)}

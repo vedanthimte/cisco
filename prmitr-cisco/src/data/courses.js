@@ -16,7 +16,7 @@ export const courses = {
       hours: 15,
       skills: ["Threats", "CIA triad", "Careers"],
       description: "Threat landscape, security domains, and a roadmap to beginner SOC roles.",
-      link: "#"
+      link: "https://www.netacad.com/courses/cybersecurity-essentials?courseLang=en-US&instance_id=5632228e-304c-4be1-ae72-bcc22d15fd52 "
     },
     {
       id: "python-automation-lite",

@@ -7,7 +7,7 @@ export default function FacultySection() {
   return (
     <section className="faculty-section">
       <div className="container">
-        <h2>Our Faculty</h2>
+        <h2>Pillars of Strength</h2>
         <div className="faculty-grid">
           {facultyData.map((faculty, index) => (
             <FacultyCard key={index} {...faculty} />

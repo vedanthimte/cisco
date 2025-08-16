@@ -7,18 +7,19 @@ export default function Navbar(){
   const [open,setOpen] = useState(false)
   const links = [
     {to:'/', label:'Home', end:true},
+    {to:'/about', label:'About'},
     {to:'/events', label:'Events'},
     {to:'/team', label:'Team'},
     {to:'/courses', label:'Courses'},
     {to:'/gallery', label:'Gallery'},
     {to:'/blog', label:'Blog'},
-    {to:'/about', label:'About'}
+    
   ]
   return (
     <nav className="nav">
       <div className="container nav-inner">
         <Link to="/" className="brand" onClick={()=>setOpen(false)}>
-          <img src="/logo.svg" alt="NetAcad logo" />
+          <img src="/assets/cisco_logo.jpg" alt="logo" />
           <span>{site.shortName}</span>
         </Link>
 

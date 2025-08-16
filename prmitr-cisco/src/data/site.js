@@ -1,29 +1,32 @@
 export const site = {
-  orgName: "Cisco Networking Academy — Your College",
-  shortName: "NetAcad @ YC",
-  tagline: "Connect. Secure. Automate.",
+  orgName: "PRMITR Cisco Networking Academy",
+  shortName: "CISCO",
+  tagline: "Empowering You to Build the Future !",
   location: "Amravati, Maharashtra, India",
-  email: "netacad@yourcollege.edu",
-  phone: "+91-98765-43210",
+  email: "ciscoprmitr@gmail.com",
+  phone: "+91-7248907856",
   socials: {
-    x: "https://twitter.com/",
+    insta: "https://instagram.com/cisco_prmitr",
     linkedin: "https://www.linkedin.com/",
-    github: "https://github.com/"
+    cisco: "https://netacad.com/", 
+    x: "",
+    github :""
+
   },
   hero: {
-    title: "Connect. Secure. Automate.",
+    title: "Empowering You to Build the Future !",
     subtitle:
-      "Build career-ready networking & cybersecurity skills through hands-on labs, expert-led events, and peer learning.",
+      "Build advanced skills through hands-on labs, expert-led events, and peer learning.",
     ctaPrimary: { label: "Explore Courses", href: "/courses" },
     ctaSecondary: { label: "Upcoming Events", href: "/events?filter=upcoming" }
   },
   kpis: [
-    { label: "Active Members", value: "350+" },
-    { label: "Industry Mentors", value: "12" },
-    { label: "Cert Prep Hours", value: "500+" },
-    { label: "Placements/Interns", value: "40+" }
+    { label: "Active Learners", value: "1500+" },
+    { label: "Mentors / Faculty ", value: "12" },
+    { label: "Cert Prep Hours", value: "400+" },
+    { label: "Workshops / Trainings", value: "15+" }
   ],
   about:
-    "We are the official Cisco Networking Academy chapter at Your College. Our mission is to make world-class networking, security, and automation education accessible. We run bootcamps, study groups, and certification prep for CCNA, CyberOps, and DevNet, along with real-world projects, labs, and competitions."
+    "The PRMITR Cisco Networking Academy is a premier center of excellence dedicated to empowering students with cutting-edge skills in networking, cybersecurity, and emerging technologies. Established in collaboration with Cisco Systems, the academy provides industry-relevant training, hands-on labs, and globally recognized certifications that prepare learners for successful careers in the IT and networking domains. Through a blend of practical learning, real-world projects, and expert mentorship, we bridge the gap between academia and industry. Our academy nurtures innovation, problem-solving, and leadership among students to meet the growing demand for skilled professionals in today’s digital economy."
 }
 

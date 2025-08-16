@@ -1,13 +1,13 @@
 .faculty-section {
   padding: 50px 20px;
-  background: linear-gradient(135deg, #f0f4f8 0%, #eaf2f8 100%);
+  background: linear-gradient(180deg, var(--bg), var(--panel));
   text-align: center;
 }
 
 .faculty-section h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #0a66c2;
+  color: var(--brand);
   margin-bottom: 40px;
 }
 
@@ -18,16 +18,17 @@
 }
 
 .faculty-card {
-  background: transparent;
-  border: 2px solid rgba(10, 102, 194, 0.2);
-  border-radius: 15px;
+  background: var(--card);
+  border: 1px solid #1a2741;
+  border-radius: var(--radius);
   padding: 20px;
+  box-shadow: var(--shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .faculty-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
 .faculty-image {
@@ -36,17 +37,25 @@
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
-  border: 3px solid #0a66c2;
+  border: 3px solid var(--brand);
 }
 
 .faculty-name {
   font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 5px;
-  color: #0a66c2;
+  margin-bottom: 2px;
+  color: var(--brand);
 }
 
 .faculty-role {
-  color: #444;
+  color: var(--muted);
+  font-weight: 600;
   font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.faculty-bio {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-bottom: 15px;
 }

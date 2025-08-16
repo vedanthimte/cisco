@@ -1,9 +1,9 @@
 export const coreTeam = [
   {
-    name: "John Doe",
-    role: "Director",
+    name: "Deep Singnapure",
+    role: "Lead",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/john.jpg",
+    image: "/assets/team/core_vedant.jpg",
     links: {
       linkedin: "#",
       github: "#",
@@ -11,21 +11,33 @@ export const coreTeam = [
     }
   },
   {
-    name: "Jane Smith",
-    role: "Technical Head",
-    bio: "Expert in network security and automation.",
-    image: "/assets/team/jane.jpg",
+    name: "Vedant Himte",
+    role: "Co-Lead",
+    bio: "Leading Cisco Networking Academy with a vision for innovation.",
+    image: "/assets/team/core_vedant.jpg",
     links: {
       linkedin: "#",
       github: "#",
       twitter: "#"
     }
-  }
+  },
+  {
+    name: "Vedant Himte",
+    role: "Co-Lead",
+    bio: "Leading Cisco Networking Academy with a vision for innovation.",
+    image: "/assets/team/core_vedant.jpg",
+    links: {
+      linkedin: "#",
+      github: "#",
+      twitter: "#"
+    }
+  },
+  
 ];
 
 export const teamLeads = [
   {
-    name: "Michael Brown",
+    name: "Vedant Himte",
     role: "Web Development Lead",
     bio: "Passionate about frontend and backend development.",
     image: "/assets/team/michael.jpg",
