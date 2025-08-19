@@ -86,7 +86,7 @@ export const teamLeads = [
     name: "Atharv Borkar",
     role: "AI & Data Science Lead",
     bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/image.png",
+    image: "/assets/team/atharva.jpg",
     links: {
       linkedin: "#",
       github: "#",
