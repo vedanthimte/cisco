@@ -1,5 +1,17 @@
 const facultyData = [
   {
+    name: "Prof Arpit Chaudhari",
+    role: "Faculty Coordinator",
+    image: "/assets/faculty/Arpit.jpeg",
+    link :"https://www.linkedin.com/in/arpit-chaudhari-0720b5294/" 
+  },
+  {
+    name: "Dr. Nupoor M Yawale",
+    role: "Faculty Coordinator",
+    image: "/assets/faculty/Nupoor.png",
+    link :"www.linkedin.com/in/nupoor-yawale-37167633" 
+  },
+  {
     name: "Prof Vaibhav J Babrekar",
     role: "Faculty Coordinator",
     image: "/assets/faculty/vaibhav.jpg",
@@ -10,6 +22,12 @@ const facultyData = [
     role: "Faculy Coordinator",
     image: "/assets/faculty/ai&ds_neha.jpg",
     link : "https://www.linkedin.com/in/neha-kandalkar-6b014b49"
+  },
+  {
+    name: "Prof Aniket V Deshmukh ",
+    role: "Faculy Coordinator",
+    image: "/assets/faculty/Aniket.png",
+    link : "https://www.linkedin.com/in/aniket-deshmukh-82a335a0"
   },
   {
     name: "Prof Rutuja S Adhau",

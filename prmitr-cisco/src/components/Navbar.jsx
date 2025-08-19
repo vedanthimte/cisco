@@ -34,7 +34,7 @@ export default function Navbar(){
               {l.label}
             </NavLink>
           ))}
-          <a className="btn" href={`mailto:${site.email}`} onClick={()=>setOpen(false)}>Contact</a>
+          {/* <a className="btn" href=mailto: onClick={()=>setOpen(false)}>Contact</a> */}
         </div>
       </div>
     </nav>
