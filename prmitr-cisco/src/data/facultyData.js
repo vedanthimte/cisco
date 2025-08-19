@@ -7,7 +7,7 @@ const facultyData = [
   },
   {
     name: "Prof Neha A Kandalkar",
-    role: "Faculy Coordinator - AI&DS",
+    role: "Faculy Coordinator",
     image: "/assets/faculty/ai&ds_neha.jpg",
     link : "https://www.linkedin.com/in/neha-kandalkar-6b014b49"
   },

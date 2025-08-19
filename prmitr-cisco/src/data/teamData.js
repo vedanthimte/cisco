@@ -3,11 +3,11 @@ export const coreTeam = [
     name: "Deep Singnapure",
     role: "Lead",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/core_vedant.jpg",
+    image: "/assets/team/core_deep.jpg",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -16,9 +16,9 @@ export const coreTeam = [
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
     image: "/assets/team/Core_VedantHimte.jpg",
     links: {
-      linkedin: "#",
-      github: "#",
-      twitter: "#"
+      linkedin: "https://vedanthimte.in",
+      github: "https://github.com/vedanthimte/",
+      insta: "https://www.instagram.com/vedanthimte/"
     }
   },
   {
@@ -29,7 +29,7 @@ export const coreTeam = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   
@@ -37,11 +37,11 @@ export const coreTeam = [
     name: "Khushi Khatale",
     role: "PR Analyst",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/core_vedant.jpg",
+    image: "/assets/team/image.png",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   
@@ -53,7 +53,7 @@ export const coreTeam = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   
@@ -68,7 +68,7 @@ export const teamLeads = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -79,40 +79,40 @@ export const teamLeads = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Atharv Borkar",
     role: "AI & Data Science Lead",
     bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/michael.jpg",
+    image: "/assets/team/image.png",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Gunjan Pachpohar",
     role: "Cybersecurity Lead",
     bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/michael.jpg",
+    image: "/assets/team/GunjanPachpohar .jpg",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Arth Gundapure",
     role: "DSA Lead",
     bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/michael.jpg",
+    image: "/assets/team/Arth.png",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -123,7 +123,7 @@ export const teamLeads = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -134,18 +134,18 @@ export const teamLeads = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Lajari Pawanikar",
     role: "Creative Team Lead",
     bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/michael.jpg",
+    image: "/assets/team/LajariPawanikar.jpg",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
 ];
@@ -159,51 +159,51 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Pratansha Chaudhary",
     role: "Web Develpment Member",
     bio: "Interested in learning and contributing to networking projects.",
-    image: "/assets/team/emily.jpg",
+    image: "/assets/team/PratanshaChaudhary.jpg",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Khushi Puri",
     role: "AI & Data Science Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/david.jpg",
+    image: "/assets/team/KhushiPuri.jpg",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Tanay Thakare",
     role: "AI & Data Science Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/david.jpg",
+    image: "/assets/team/TanayThakare.png",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Parth Deshmukh",
     role: "AI & Data Science Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/ai_parth.jpg",
+    image: "/assets/team/AI&DS_Parth_Deshmukh.jpg",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -214,18 +214,18 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
     name: "Tanvi Khatale",
     role: "Cybersecurity Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/david.jpg",
+    image: "/assets/team/image.png",
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -236,7 +236,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -247,7 +247,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -258,7 +258,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -269,7 +269,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -280,7 +280,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -291,7 +291,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -302,7 +302,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -313,7 +313,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -324,7 +324,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -335,7 +335,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -346,7 +346,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -357,7 +357,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -368,7 +368,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -379,7 +379,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -390,7 +390,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -401,7 +401,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   },
   {
@@ -412,7 +412,7 @@ export const teamMembers = [
     links: {
       linkedin: "#",
       github: "#",
-      twitter: "#"
+      insta: "#"
     }
   }
 ];

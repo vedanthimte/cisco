@@ -3,7 +3,7 @@ export const posts = [
     slug: "why-ccna-still-matters",
     title: "Why CCNA Still Matters in 2025",
     date: "2025-07-20",
-    author: "NetAcad Team",
+    author: "Vedant Himte",
     excerpt: "CCNA remains a powerful launchpad for networking careers. Here’s how to leverage it alongside cloud & automation.",
     cover: "",
     markdown: `
@@ -22,7 +22,7 @@ CCNA covers IP addressing, routing, switching, and troubleshooting—skills that
     slug: "a-simple-guide-to-subnetting",
     title: "A Simple Guide to Subnetting",
     date: "2025-06-12",
-    author: "Priya Patil",
+    author: "Vedant Himte",
     excerpt: "A crisp mental model for subnetting so you can solve exam questions faster.",
     cover: "",
     markdown: `
@@ -40,7 +40,7 @@ Practice by writing network, first host, last host, and broadcast for random pre
     slug: "soc-analyst-starter-pack",
     title: "SOC Analyst Starter Pack",
     date: "2025-08-05",
-    author: "Security Lead Team",
+    author: "Vedant Himte",
     excerpt: "Tools, habits, and a 30-day plan to go from zero to junior SOC analyst.",
     cover: "",
     markdown: `

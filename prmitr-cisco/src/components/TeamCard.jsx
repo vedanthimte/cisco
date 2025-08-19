@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function TeamCard({ name, role, bio, image, links }) {
   return (
@@ -6,7 +6,7 @@ export default function TeamCard({ name, role, bio, image, links }) {
       <img src={image} alt={name} className="team-image" />
       <h3 className="team-name">{name}</h3>
       <p className="team-role">{role}</p>
-      <p className="team-bio">{bio}</p>
+      {/* <p className="team-bio">{bio}</p> */}
       <div className="team-links">
         {links?.linkedin && (
           <a href={links.linkedin} target="_blank" rel="noreferrer">
@@ -18,9 +18,9 @@ export default function TeamCard({ name, role, bio, image, links }) {
             <FaGithub />
           </a>
         )}
-        {links?.twitter && (
-          <a href={links.twitter} target="_blank" rel="noreferrer">
-            <FaTwitter />
+        {links?.insta && (
+          <a href={links.insta} target="_blank" rel="noreferrer">
+            <FaInstagram />
           </a>
         )}
       </div>

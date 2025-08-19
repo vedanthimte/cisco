@@ -36,27 +36,29 @@
   height: 130px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   border: 3px solid var(--brand);
 }
 
 .team-name {
   font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   color: var(--brand);
 }
 
 .team-role {
   color: var(--muted);
-  font-size: 0.95rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .team-bio {
   font-size: 0.9rem;
   color: var(--text);
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 
 .team-links a {

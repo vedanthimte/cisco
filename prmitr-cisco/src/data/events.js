@@ -3,52 +3,53 @@ import dayjs from "dayjs"
 export const events = [
   {
     id: "ccna-bootcamp",
-    title: "CCNA Foundation Bootcamp",
-    date: "2025-09-10",
+    title: "CCNA 1 WorkShop",
+    date: "2024-12-12",
     time: "10:00–16:00",
     mode: "On-Campus",
-    location: "Lab 2, CS Block",
+    location: "CSE DEPT ,PRMITR ",
     tags: ["CCNA", "Routing & Switching"],
     description:
-      "Fast-track IPv4/IPv6, subnetting, VLANs, trunking, STP, and routing fundamentals. Includes guided labs and take-home mini-labs.",
+      "7+ Days Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
     link: "#"
   },
   {
-    id: "cyber-ctf",
-    title: "Blue Team Mini-CTF",
-    date: "2025-08-28",
-    time: "13:30–17:30",
+    id: "packer-bootcamp",
+    title: "Packet Tracer WorkShop",
+    date: "2024-09-10",
+    time: "10:00–16:00",
     mode: "On-Campus",
-    location: "Cyber Lab",
-    tags: ["Security", "SOC", "SIEM"],
+    location: "CSE DEPT ,PRMITR ",
+    tags: ["CCNA", "Routing & Switching"],
     description:
-      "Triage logs, hunt threats, write incident notes, and practice SOC workflows. Beginner-friendly, tools provided.",
+      "Complete Packet Tracer Fast-track IPv4/IPv6, subnetting, VLANs. Includes guided labs and take-home mini-labs.",
     link: "#"
   },
   {
-    id: "devnet-apis",
-    title: "Intro to DevNet & APIs",
-    date: "2025-04-12",
-    time: "15:00–17:00",
-    mode: "Online",
-    location: "Google Meet",
-    tags: ["DevNet", "Automation"],
-    description:
-      "REST APIs, Python, and automation basics. Build your first automation script for a network device.",
-    link: "#"
-  },
+  id: "dsa",
+  title: "DSA Contest",
+  date: "2025-09-05",
+  time: "13:30–17:30",
+  mode: "Online",
+  location: "HackerEarth",
+  tags: ["Algorithms", "Data Structures", "Competitive Programming"],
+  description:
+    "Solve challenging problems on arrays, trees, algorithms. Beginner to advanced levels, leaderboard live.",
+  link: "#" },
+  
   {
-    id: "sase-cloud",
-    title: "SASE & Cloud Networking Primer",
-    date: "2025-07-02",
-    time: "11:00–13:00",
-    mode: "On-Campus",
-    location: "Seminar Hall",
-    tags: ["Cloud", "Security", "Architecture"],
-    description:
-      "Understand SD-WAN, SSE, and SASE concepts and how modern enterprises secure access.",
-    link: "#"
-  }
+  id: "cyber-security",
+  title: "Cyber Security Workshop",
+  date: "2025-09-13",
+  time: "11:00–13:00",
+  mode: "On-Campus",
+  location: "CSE Dept, PRMITR",
+  tags: ["Cloud Security", "Network Architecture", "Enterprise Security"],
+  description:
+    "Learn core concepts of SD-WAN, SSE, and SASE, and explore how modern enterprises design secure access solutions.",
+  link: "#"
+}
+
 ]
 
 export const splitEvents = () => {

@@ -8,7 +8,7 @@ export default function Footer(){
       <div className="container footer-top">
         <div className="footer-col">
           <div className="footer-brand">
-            <img src="/logo.svg" alt="NetAcad logo"/>
+            <img src="/assets/cisco_logo.jpg" alt="Logo"/>
             <div>
               <strong>{site.shortName}</strong><br/>
               <span className="mono">{site.tagline}</span>
@@ -20,7 +20,6 @@ export default function Footer(){
           <div className="row" style={{marginTop:10}}>
             <a className="mono" href={site.socials.insta}><FaInstagram  /></a>
             <a className="mono" href={site.socials.linkedin}><FaLinkedin/></a>
-            <a className="mono" href={site.socials.cisco}><FaInstagram /></a>
           </div>
         </div>
         <div className="footer-col footer-links">
@@ -28,7 +27,6 @@ export default function Footer(){
           <Link to="/events">Events</Link>
           <Link to="/courses">Courses</Link>
           <Link to="/gallery">Gallery</Link>
-          <Link to="/blog">Blog</Link>
         </div>
         <div className="footer-col footer-links">
           <strong>About</strong>
@@ -37,8 +35,8 @@ export default function Footer(){
           <a href={`mailto:${site.email}`}>Contact</a>
         </div>
       </div>
-      <div className="container mono" style={{marginTop:14}}>
-        © {new Date().getFullYear()} {site.orgName}. Built with ❤️.
+      <div className="container mono" style={{marginTop:14, textAlign:'center'}}>
+        © {new Date().getFullYear()} CISCO | All rights reserved
       </div>
     </footer>
   )

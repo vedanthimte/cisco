@@ -56,7 +56,7 @@ export const courses = {
   },
   {
     id: "introduction-data-analytics-essentials",
-    title: "Introduction to Data Analytics Essentials",
+    title: "Data Analytics Essentials",
     level: "Beginner",
     hours: 30,
     skills: ["Data collection", "Data cleaning", "Visualization", "Basic statistics"],
@@ -65,7 +65,7 @@ export const courses = {
   },
   {
     id: "python-essentials-1",
-    title: "Python Essentials 1 - Skills for All",
+    title: "Python Essentials 1",
     level: "Beginner",
     hours: 30,
     skills: ["Syntax", "Variables", "Loops", "Basic functions"],
@@ -74,7 +74,7 @@ export const courses = {
   },
   {
     id: "python-essentials-2",
-    title: "Python Essentials 2 - Skills for All",
+    title: "Python Essentials 2",
     level: "Beginner",
     hours: 40,
     skills: ["OOP", "Modules", "File handling", "Error handling"],
@@ -87,32 +87,32 @@ export const courses = {
       id: "ccna",
       title: "CCNA (200-301) Prep",
       level: "Intermediate",
-      hours: 80,
-      price: "₹4,999",
+      hours: "100+",
+      price: "₹1999",
       skills: ["Routing", "Switching", "Security", "Automation"],
       description: "Exam-oriented track with labs, quizzes, and mock tests. Includes 1:1 doubt sessions.",
       link: "#"
     },
-    {
-      id: "cyberops-associate",
-      title: "CyberOps Associate",
-      level: "Intermediate",
-      hours: 60,
-      price: "₹3,999",
-      skills: ["SOC", "SIEM", "IR Basics"],
-      description: "SOC fundamentals, alert triage, and incident response workflows with practical labs.",
-      link: "#"
-    },
-    {
-      id: "devnet-associate",
-      title: "DevNet Associate",
-      level: "Intermediate",
-      hours: 50,
-      price: "₹3,499",
-      skills: ["APIs", "Python", "Automation"],
-      description: "API design, Python, model-driven programmability, and practical automation use-cases.",
-      link: "#"
-    }
+    // {
+    //   id: "cyberops-associate",
+    //   title: "CyberOps Associate",
+    //   level: "Intermediate",
+    //   hours: 60,
+    //   price: "₹3,999",
+    //   skills: ["SOC", "SIEM", "IR Basics"],
+    //   description: "SOC fundamentals, alert triage, and incident response workflows with practical labs.",
+    //   link: "#"
+    // },
+    // {
+    //   id: "devnet-associate",
+    //   title: "DevNet Associate",
+    //   level: "Intermediate",
+    //   hours: 50,
+    //   price: "₹3,499",
+    //   skills: ["APIs", "Python", "Automation"],
+    //   description: "API design, Python, model-driven programmability, and practical automation use-cases.",
+    //   link: "#"
+    // }
   ]
 }
 
