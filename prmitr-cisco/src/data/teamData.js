@@ -3,11 +3,11 @@ export const coreTeam = [
     name: "Deep Singnapure",
     role: "Lead",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/core_deep.jpg",
+    image: "/assets/team/deep.jpg",
     links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
+      linkedin: "https://www.linkedin.com/in/deep-singnapure-56391b290/",
+      github: "https://github.com/deepsingnapure",
+      insta: "https://www.instagram.com/deep_singnapure?igsh=cDU2ZW16NnU3bHlu"
     }
   },
   {
@@ -27,8 +27,8 @@ export const coreTeam = [
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
     image: "/assets/team/Mudassir Mohammad.jpg",
     links: {
-      linkedin: "#",
-      github: "#",
+      linkedin: "https://www.linkedin.com/in/mudassir-mohammad/",
+      github: "https://github.com/MudassirQureshi7987",
       insta: "#"
     }
   },
@@ -39,9 +39,9 @@ export const coreTeam = [
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
     image: "/assets/team/image.png",
     links: {
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/khushi-khatale-4a291a290/",
       github: "#",
-      insta: "#"
+      insta: "https://www.instagram.com/khushi_khatale/?hl=en"
     }
   },
   
@@ -51,9 +51,9 @@ export const coreTeam = [
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
     image: "/assets/team/Danish Ahemad.jpg",
     links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
+      linkedin: "https://www.linkedin.com/in/danish-ahemad-0b55b2290",
+      github: "https://github.com/danishahemad",
+      insta: "https://www.instagram.com/isk.danishahemad?igsh=azJwdjFyNXU5eXVw"
     }
   },
   
