@@ -3,7 +3,7 @@ export const coreTeam = [
     name: "Deep Singnapure",
     role: "Lead",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/deep.jpg",
+    image: "/assets/team/core_deep.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/deep-singnapure-56391b290/",
       github: "https://github.com/deepsingnapure",
@@ -37,7 +37,7 @@ export const coreTeam = [
     name: "Khushi Khatale",
     role: "PR Analyst",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/image.png",
+    image: "/assets/team/Khushi.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/khushi-khatale-4a291a290/",
       github: "#",
@@ -221,7 +221,7 @@ export const teamMembers = [
     name: "Tanvi Khatale",
     role: "Cybersecurity Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/image.png",
+    image: "/assets/team/tanvi.jpg",
     links: {
       linkedin: "#",
       github: "#",
