@@ -1,62 +1,16 @@
-:root {
-  --bg: #ffffff;              /* White background */
-  --panel: #f5f8fc;           /* Light panel background */
-  --soft: #e6eef7;            /* Soft blue-gray section bg */
-  --brand: #049FD9;           /* Cisco blue */
-  --accent: #00BCEB;          /* Cisco aqua accent */
-  --text: #1c1c1c;            /* Dark professional text */
-  --muted: #8a97ab;           /* Muted gray text */
-  --card: #ffffff;            /* Card background */
-  --ring: rgba(0, 188, 235, 0.35); /* Aqua glow */
-  --radius: 14px;             /* Rounded corners */
-  --shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* Soft shadow */
+:root{
+  --bg:#0b1220;
+  --panel:#10192b;
+  --soft:#17243a;
+  --brand:#00bceb;
+  --accent:#13c2c2;
+  --text:#e6eef8;
+  --muted:#9bb0cc;
+  --card:#0f1726;
+  --ring: rgba(0,188,235,.35);
+  --radius:14px;
+  --shadow:0 10px 30px rgba(0,0,0,.25);
 }
-
-:root[data-theme="dark"] {
-  --bg: #0b1f3a;              /* Deep Cisco navy */
-  --panel: #13294b;           /* Darker panel */
-  --soft: #1c355c;            /* Softer dark navy */
-  --brand: #049FD9;           /* Cisco blue */
-  --accent: #00BCEB;          /* Cisco aqua */
-  --text: #f5f8fc;            /* Light text */
-  --muted: #9eb3c9;           /* Muted light gray-blue */
-  --card: #102840;            /* Card navy */
-  --ring: rgba(0, 188, 235, 0.4); /* Aqua glow */
-  --radius: 14px;
-  --shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Stronger dark shadow */
-}
-
-/* Light mode (default) */
-:root {
-  --bg: #ffffff;
-  --panel: #10192b;
-  --soft: #17243a;
-  --brand: #0171B9;
-  --accent: #000000;
-  --text: #000000;
-  --muted: #d0ddef;
-  --card: #f4f8fb;
-  --ring: rgba(0, 113, 185, 0.35);
-  --radius: 14px;
-  --shadow: 0 10px 30px rgba(0, 0, 0, .1);
-}
-
-/* Dark mode */
-:root[data-theme="dark"] {
-  --bg: #0b121f;
-  --panel: #17243a;
-  --soft: #22314d;
-  --brand: #00bceb; /* Cisco aqua */
-  --accent: #ffffff;
-  --text: #e5eaf0;
-  --muted: #3b4a68;
-  --card: #10192b;
-  --ring: rgba(0, 188, 235, 0.35);
-  --radius: 14px;
-  --shadow: 0 10px 30px rgba(0, 0, 0, .35);
-}
-
-
 
 *{box-sizing:border-box}
 html,body,#root{height:100%}
@@ -136,20 +90,3 @@ code,pre{background:#0e1b33;border:1px solid #1d2f50;padding:2px 6px;border-radi
 /* Image hover for gallery */
 .card img{transition:transform .25s ease}
 .card img:hover{transform:scale(1.02)}
-
-
-body {
-  background-color: var(--bg);
-  color: var(--text);
-  font-family: 'Inter', sans-serif;
-  transition: background 0.3s, color 0.3s;
-}
-
-
-.navbar {
-  background-color: var(--panel);
-  color: var(--text);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  transition: background 0.3s, color 0.3s;
-}

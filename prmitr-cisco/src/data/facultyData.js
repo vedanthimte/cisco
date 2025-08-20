@@ -1,8 +1,14 @@
 const facultyData = [
   {
+    name: "Dr. C. N. Deshmukh",
+    role: "Cisco Coordinator",
+    image: "/assets/faculty/c_n_deshmukh.png",
+    link :"https://www.linkedin.com/in/prof-dr-chandrashekhar-deshmukh-67a9a121" 
+  },
+  {
     name: "Prof Arpit Chaudhari",
-    role: "Faculty Coordinator",
-    image: "/assets/faculty/Arpit.jpeg",
+    role: "Cisco Co-Coordinator",
+    image: "/assets/faculty/Arpit_Chaudhari.png",
     link :"https://www.linkedin.com/in/arpit-chaudhari-0720b5294/" 
   },
   {
