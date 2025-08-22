@@ -27,14 +27,6 @@ export default function Home(){
           ))}
         </div>
       </div>
-      <section className="team-section">
-      <SectionTitle title="Core Team" />
-      <div className="team-grid">
-        {coreTeam.map((member, idx) => (
-          <TeamCard key={idx} {...member} />
-        ))}
-      </div>
-      </section>
       <FacultySection />
       <Section title="Upcoming Events" subtitle="Join our next sessions and hack nights.">
         <div className="grid">

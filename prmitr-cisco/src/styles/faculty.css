@@ -59,3 +59,14 @@
   color: var(--text);
   margin-bottom: 15px;
 }
+
+.faculty-links a {
+  margin: 0 8px;
+  color: var(--brand);
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.faculty-links a:hover {
+  color: var(--accent);
+}
