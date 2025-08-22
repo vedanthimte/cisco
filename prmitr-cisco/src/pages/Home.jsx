@@ -9,6 +9,12 @@ import { posts } from '../data/blog.js'
 import { courses } from '../data/courses.js'
 import FacultySection from "../components/FacultySection";
 
+
+import SectionTitle from "../components/SectionTitle";
+import TeamCard from "../components/TeamCard";
+import { coreTeam } from "../data/teamData";
+import "../styles/team.css";
+
 export default function Home(){
   const { upcoming } = splitEvents()
   return (
@@ -21,6 +27,14 @@ export default function Home(){
           ))}
         </div>
       </div>
+      <section className="team-section">
+      <SectionTitle title="Core Team" />
+      <div className="team-grid">
+        {coreTeam.map((member, idx) => (
+          <TeamCard key={idx} {...member} />
+        ))}
+      </div>
+      </section>
       <FacultySection />
       <Section title="Upcoming Events" subtitle="Join our next sessions and hack nights.">
         <div className="grid">

@@ -2,6 +2,7 @@
   padding: 50px 20px;
   background: linear-gradient(180deg, var(--bg), var(--panel));
   text-align: center;
+  
 }
 
 .team-section h2 {
@@ -15,6 +16,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
 }
 
 .team-card {
@@ -24,6 +28,7 @@
   padding: 20px;
   box-shadow: var(--shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .team-card:hover {

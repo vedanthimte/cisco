@@ -3,7 +3,7 @@ export const coreTeam = [
     name: "Deep Singnapure",
     role: "Lead",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/core_deep.jpg",
+    image: "/assets/team/deep.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/deep-singnapure-56391b290/",
       github: "https://github.com/deepsingnapure",
@@ -14,7 +14,7 @@ export const coreTeam = [
     name: "Vedant Himte",
     role: "Co-Lead",
     bio: "Leading Cisco Networking Academy with a vision for innovation.",
-    image: "/assets/team/Core_VedantHimte.jpg",
+    image: "/assets/team/core-VedantHimte.png",
     links: {
       linkedin: "https://vedanthimte.in",
       github: "https://github.com/vedanthimte/",
