@@ -28,10 +28,10 @@ export const events = [
   {
   id: "dsa",
   title: "DSA Contest",
-  date: "2025-09-05",
+  date: "2025-09-13",
   time: "13:30–17:30",
-  mode: "Online",
-  location: "HackerEarth",
+  mode: "On-Campus",
+  location: "CSE Dept, PRMITR",
   tags: ["Algorithms", "Data Structures", "Competitive Programming"],
   description:
     "Solve challenging problems on arrays, trees, algorithms. Beginner to advanced levels, leaderboard live.",
@@ -40,13 +40,13 @@ export const events = [
   {
   id: "cyber-security",
   title: "Cyber Security Workshop",
-  date: "2025-09-13",
+  date: "2025-09-08",
   time: "11:00–13:00",
   mode: "On-Campus",
   location: "CSE Dept, PRMITR",
-  tags: ["Cloud Security", "Network Architecture", "Enterprise Security"],
+  tags: ["Ethical Hacking", "Live Attack Perform", "Data Privacy"],
   description:
-    "Learn core concepts of SD-WAN, SSE, and SASE, and explore how modern enterprises design secure access solutions.",
+    "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
   link: "#"
 }
 

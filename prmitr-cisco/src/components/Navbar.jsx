@@ -10,6 +10,7 @@ export default function Navbar(){
     {to:'/about', label:'About'},
     {to:'/events', label:'Events'},
     {to:'/team', label:'Team'},
+    {to:'/faculty', label:'Faculty'},
     {to:'/courses', label:'Courses'},
     {to:'/gallery', label:'Gallery'},
     {to:'/blog', label:'Blog'},

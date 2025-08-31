@@ -3,6 +3,7 @@ import Layout from './components/Layout.jsx'
 import Home from './pages/Home.jsx'
 import Events from './pages/Events.jsx'
 import Team from './pages/Team.jsx'
+import Faculty from './pages/Faculty.jsx'
 import Courses from './pages/Courses.jsx'
 import Blog from './pages/Blog.jsx'
 import BlogPost from './pages/BlogPost.jsx'
@@ -17,6 +18,7 @@ export default function App(){
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/faculty" element={<Faculty />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/blog" element={<Blog />} />

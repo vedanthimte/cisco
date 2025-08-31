@@ -152,6 +152,39 @@ export const teamLeads = [
 
 export const teamMembers = [
   {
+    name: "Vaibhav Korde",
+    role: "Management Member",
+    bio: "Focuses on network automation and scripting.",
+    image: "/assets/team/VaibhavKorde.jpg",
+    links: {
+      linkedin: "#",
+      github: "#",
+      insta: "#"
+    }
+  },
+  {
+    name: "Parth Jaiswal",
+    role: "Management Member",
+    bio: "Focuses on network automation and scripting.",
+    image: "/assets/team/ParthJaiswal.jpg",
+    links: {
+      linkedin: "#",
+      github: "#",
+      insta: "#"
+    }
+  },
+  {
+    name: "Prasanna Patil",
+    role: "Management Member",
+    bio: "Focuses on network automation and scripting.",
+    image: "/assets/team/image.png",
+    links: {
+      linkedin: "#",
+      github: "#",
+      insta: "#"
+    }
+  },
+  {
     name: "Harshada Tijare",
     role: "Web Develpment Member",
     bio: "Interested in learning and contributing to networking projects.",
@@ -382,37 +415,5 @@ export const teamMembers = [
       insta: "#"
     }
   },
-  {
-    name: "Vaibhav Korde",
-    role: "Management Member",
-    bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/VaibhavKorde.jpg",
-    links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
-    }
-  },
-  {
-    name: "Parth Jaiswal",
-    role: "Management Member",
-    bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/ParthJaiswal.jpg",
-    links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
-    }
-  },
-  {
-    name: "Prasanna Patil",
-    role: "Management Member",
-    bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/AnushkaVishwakarma.jpg",
-    links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
-    }
-  }
+  
 ];

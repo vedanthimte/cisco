@@ -1,5 +1,5 @@
 import React from "react";
-import { facultyData, coreTeam } from "../data/facultyData";
+import { facultyMain, coreTeam } from "../data/facultyData";
 import FacultyCard from "./FacultyCard";
 import "../styles/faculty.css";
 
@@ -19,8 +19,8 @@ function FacultyGroup({ title, data }) {
 export default function FacultySection() {
   return (
     <section className="faculty-section">
+      <FacultyGroup title="Pillars of Strength" data={facultyMain} />
       <FacultyGroup title="Core Team" data={coreTeam} />
-      <FacultyGroup title="Pillars of Strength" data={facultyData} />
     </section>
   );
 }
