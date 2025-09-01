@@ -9,6 +9,7 @@ import { posts } from '../data/blog.js'
 import { courses } from '../data/courses.js'
 import FacultySection from "../components/FacultySection";
 
+import Popup from "../components/Popup.jsx";
 
 import SectionTitle from "../components/SectionTitle";
 import TeamCard from "../components/TeamCard";
@@ -20,6 +21,7 @@ export default function Home(){
   return (
     <>
       <Hero {...site.hero} />
+      <Popup />
       <div className="container">
         <div className="kpis">
           {site.kpis.map(k => (

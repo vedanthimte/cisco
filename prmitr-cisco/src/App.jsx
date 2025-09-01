@@ -12,6 +12,7 @@ import About from './pages/About.jsx'
 import Register from './pages/Register.jsx'
 import NotFound from './pages/NotFound.jsx'
 
+
 export default function App(){
   return (
     <Routes>

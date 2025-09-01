@@ -51,7 +51,7 @@ export const courses = {
     level: "Beginner",
     hours: 70,
     skills: ["Threats", "Mitigation", "Security controls", "Risk management"],
-    description: "Build a solid foundation in cybersecurity concepts, threats, and defense strategies.",
+    description: "Build a solid foundation in cybersecurity concepts, threats, pentesting, reports, OSINT and defense strategies.",
     link: "https://www.netacad.com/courses/cybersecurity-essentials?courseLang=en-US&instance_id=5632228e-304c-4be1-ae72-bcc22d15fd52"
   },
   {
