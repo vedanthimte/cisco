@@ -9,6 +9,7 @@ import Blog from './pages/Blog.jsx'
 import BlogPost from './pages/BlogPost.jsx'
 import Gallery from './pages/Gallery.jsx'
 import About from './pages/About.jsx'
+import Register from './pages/Register.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export default function App(){
@@ -21,6 +22,7 @@ export default function App(){
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/about" element={<About />} />

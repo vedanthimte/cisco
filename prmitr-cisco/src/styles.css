@@ -24,7 +24,7 @@ main{padding-bottom:40px}
 
 /* NAVBAR (professional, responsive) */
 .nav{position:sticky;top:0;z-index:50;background:rgba(10,16,28,.7);backdrop-filter: blur(8px);border-bottom:1px solid #142139}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 12px}
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.2px;color:var(--text)}
 .brand img{width:32px;height:32px;border-radius:8px}
 .menu{display:flex;gap:16px;align-items:center}
