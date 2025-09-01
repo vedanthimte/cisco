@@ -98,13 +98,6 @@ export const galleryData = [
     tags: ["Gallery"]
   },
   {
-    id: 11,
-    title: "Gallery Image 6",
-    description: "photo 6.",
-    image: "/assets/gallery/img6.jpg",
-    tags: ["Gallery"]
-  },
-  {
   
     id: 12,
     title: "Event 6",
