@@ -47,7 +47,7 @@ export const events = [
   tags: ["Ethical Hacking", "Live Attack Perform", "Data Privacy"],
   description:
     "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
-  link: "#"
+  link: "https://cisco.prmitr.in/register"
 }
 
 ]
