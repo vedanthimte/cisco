@@ -18,6 +18,10 @@ export default function Popup() {
 
   const handleClose = () => {
     setShowPopup(false);
+  };
+
+  const handleView = () => {
+    setShowPopup(false);
     navigate("/register");
   };
 
@@ -35,7 +39,7 @@ export default function Popup() {
           latest trends in security and ethical hacking.
         </p>
        
-        <button className="popup-action" onClick={handleClose}>
+        <button className="popup-action" onClick={handleView}>
           View
         </button>
       </div>
