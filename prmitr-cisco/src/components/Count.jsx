@@ -36,6 +36,7 @@ export default function CountdownWidget() {
         style={{
           fontSize: "5rem", 
           textAlign: "center",
+          pointerEvents: "none",
         }}
       >
         Registration Starts
