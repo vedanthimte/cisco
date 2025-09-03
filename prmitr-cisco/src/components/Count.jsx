@@ -25,7 +25,7 @@ export default function CountdownWidget() {
       }}
     >
       <a
-        href="https://logwork.com/countdown-timer"
+        href="#"
         className="countdown-timer"
         data-style="flip2"
         data-timezone="Asia/Kolkata"
