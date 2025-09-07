@@ -27,91 +27,77 @@ export const galleryData = [
   //   description: "Industry session on SD-WAN and Secure Access Service Edge.",
   //   tags: ["Cloud", "Architecture"]
   // },
-  {
-    id: 1,
-    title: "Event 1",
-    description: " college event photo.",
-    image: "/assets/gallery/event1.jpg",
-    tags: ["Event"]
-  },
+  
   {
     id: 2,
-    title: "Event 2",
-    description: "college event photo.",
-    image: "/assets/gallery/event2.jpg",
-    tags: ["Event"]
-  },
-  {
-    id: 3,
-    title: "Event 3",
-    description: "college event photo.",
-    image: "/assets/gallery/event3.jpg",
-    tags: ["Event"]
-  },
-  {
-    id: 4,
-    title: "Event 4",
-    description: "college event photo.",
-    image: "/assets/gallery/event4.jpg",
-    tags: ["Event"]
-  },
-  {
-    id: 5,
-    title: "Event 5",
-    description: "college event photo.",
-    image: "/assets/gallery/event5.jpg",
-    tags: ["Event"]
-  },
-  {
-    id: 6,
-    title: "Gallery Image 1",
-    description: "photo 1.",
+    title: "Gallery Image ",
+    // description: "photo 2.",
     image: "/assets/gallery/img1.jpg",
     tags: ["Gallery"]
   },
   {
-    id: 7,
-    title: "Gallery Image 2",
-    description: "photo 2.",
-    image: "/assets/gallery/img2.jpg",
+    id: 1,
+    title: "Gallery Image ",
+    // description: "photo 1.",
+    image: "/assets/gallery/img1.jpeg",
     tags: ["Gallery"]
   },
   {
-    id: 8,
-    title: "Gallery Image 3",
-    description: "photo 3.",
-    image: "/assets/gallery/img3.jpg",
+    id: 2,
+    title: "Gallery Image ",
+    // description: "photo 2.",
+    image: "/assets/gallery/img2.jpeg",
     tags: ["Gallery"]
   },
   {
-    id: 9,
-    title: "Gallery Image 4",
-    description: "photo 4.",
-    image: "/assets/gallery/img4.jpg",
+    id: 3,
+    title: "Gallery Image",
+    // description: "photo 3.",
+    image: "/assets/gallery/img3.jpeg",
     tags: ["Gallery"]
   },
   {
-    id: 10,
-    title: "Gallery Image 5",
-    description: "photo 5.",
-    image: "/assets/gallery/img5.jpg",
+    id: 4,
+    title: "Gallery Image ",
+    // description: "photo 4.",
+    image: "/assets/gallery/img4.jpeg",
     tags: ["Gallery"]
   },
   {
-  
-    id: 12,
-    title: "Event 6",
-    description: "college event photo.",
-    image: "/assets/gallery/event6.jpg",
-    tags: ["Event"]
+    id: 5,
+    title: "Gallery Image",
+    // description: "photo 5.",
+    image: "/assets/gallery/img5.jpeg",
+    tags: ["Gallery"]
   },
   {
-    id:13,
-    title: "team",
-    description: "team photo.",
+    id: 11,
+    title: "Gallery Image",
+    // description: "photo 6.",
+    image: "/assets/gallery/img6.jpeg",
+    tags: ["Gallery"]
+  },
+  {
+    id: 11,
+    title: "Gallery Image",
+    // description: "photo 6.",
+    image: "/assets/gallery/img7.jpeg",
+    tags: ["Gallery"]
+  },
+  {
+    id: 11,
+    title: "Gallery Image",
+    // description: "photo 6.",
+    image: "/assets/gallery/img8.jpeg",
+    tags: ["Gallery"]
+  },
+  {
+    id: 1,
+    title: "Team",
+    // description: "Team Photo",
     image: "/assets/gallery/team.jpg",
-    tags: ["team"]
-  }
+    tags: ["Gallery"]
+  },
 ]
 
 
