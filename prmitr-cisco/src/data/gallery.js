@@ -28,76 +28,95 @@ export const galleryData = [
   //   tags: ["Cloud", "Architecture"]
   // },
   
-  {
-    id: 2,
-    title: "Gallery Image ",
-    // description: "photo 2.",
-    image: "/assets/gallery/img1.jpg",
-    tags: ["Gallery"]
-  },
+  // src/data/gallery.js
+
   {
     id: 1,
-    title: "Gallery Image ",
-    // description: "photo 1.",
-    image: "/assets/gallery/img1.jpeg",
-    tags: ["Gallery"]
+    title: "CISCO TEAM",
+    description: "First workshop session snapshot with participants engaged in activities.",
+    image: "/assets/gallery/1img.jpg",
+    tags: ["Workshop", "Gallery"]
   },
   {
     id: 2,
-    title: "Gallery Image ",
-    // description: "photo 2.",
-    image: "/assets/gallery/img2.jpeg",
-    tags: ["Gallery"]
+    title: "CISCO TEAM",
+    description: "Second workshop session highlighting teamwork and collaboration.",
+    image: "/assets/gallery/2img.jpg",
+    tags: ["Workshop", "Gallery"]
   },
   {
     id: 3,
-    title: "Gallery Image",
-    // description: "photo 3.",
-    image: "/assets/gallery/img3.jpeg",
-    tags: ["Gallery"]
+    title: "CISCO TEAM",
+    description: "Third workshop session showcasing interactive discussions.",
+    image: "/assets/gallery/3img.jpg",
+    tags: ["Workshop", "Gallery"]
   },
   {
     id: 4,
-    title: "Gallery Image ",
-    // description: "photo 4.",
-    image: "/assets/gallery/img4.jpeg",
-    tags: ["Gallery"]
+    title: "Co-Ordinators",
+    description: "Participants sharing insights during the fourth workshop session.",
+    image: "/assets/gallery/4img.jpg",
+    tags: ["Workshop", "Gallery"]
   },
   {
     id: 5,
-    title: "Gallery Image",
-    // description: "photo 5.",
-    image: "/assets/gallery/img5.jpeg",
-    tags: ["Gallery"]
+    title: "Co-Ordinators",
+    description: "Fifth session snapshot capturing active involvement of students.",
+    image: "/assets/gallery/5img.jpg",
+    tags: ["Workshop", "Gallery"]
+  },
+  {
+    id: 6,
+    title: "Co-Ordinators",
+    description: "Group photo from the sixth workshop session.",
+    image: "/assets/gallery/6img.jpg",
+    tags: ["Workshop", "Gallery"]
+  },
+  {
+    id: 7,
+    title: "Co-Ordinators",
+    description: "Seventh session highlighting practical learning experiences.",
+    image: "/assets/gallery/7img.jpg",
+    tags: ["Workshop", "Gallery"]
+  },
+  {
+    id: 8,
+    title: "Workshop c++",
+    description: "Interactive discussions and brainstorming during the eighth session.",
+    image: "/assets/gallery/8img.jpg",
+    tags: ["Workshop", "Gallery"]
+  },
+  {
+    id: 9,
+    title: "Workshop c++",
+    description: "Ninth workshop session snapshot with team collaboration.",
+    image: "/assets/gallery/9img.jpg",
+    tags: ["Workshop", "Gallery"]
+  },
+  {
+    id: 10,
+    title: "CCNA Workshop",
+    description: "Engaging activities and participation in the tenth session.",
+    image: "/assets/gallery/10img.jpg",
+    tags: ["Workshop", "Gallery"]
   },
   {
     id: 11,
-    title: "Gallery Image",
-    // description: "photo 6.",
-    image: "/assets/gallery/img6.jpeg",
-    tags: ["Gallery"]
+    title: " CCNA Workshop ",
+    description: "Eleventh session focusing on innovative ideas and teamwork.",
+    image: "/assets/gallery/11img.jpg",
+    tags: ["Workshop", "Gallery"]
   },
   {
-    id: 11,
-    title: "Gallery Image",
-    // description: "photo 6.",
-    image: "/assets/gallery/img7.jpeg",
-    tags: ["Gallery"]
-  },
-  {
-    id: 11,
-    title: "Gallery Image",
-    // description: "photo 6.",
-    image: "/assets/gallery/img8.jpeg",
-    tags: ["Gallery"]
-  },
-  {
-    id: 1,
-    title: "Team",
-    // description: "Team Photo",
-    image: "/assets/gallery/team.jpg",
-    tags: ["Gallery"]
-  },
+    id: 12,
+    title: "Student participants",
+    description: " capturing group enthusiasm.",
+    image: "/assets/gallery/12img.jpg",
+    tags: ["Workshop", "Gallery"]
+  }
+
+
+
 ]
 
 
