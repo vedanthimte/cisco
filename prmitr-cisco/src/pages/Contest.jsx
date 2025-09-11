@@ -21,7 +21,7 @@ export default function About() {
   }, [targetDate]);
 
   return (
-    <Section title="DSA CONTEST REGISTRATIION" subtitle="Download guideline and instruction for DSA contest ! ">
+    <Section title="DSA & CP CONTEST" subtitle="Download guideline and instruction for DSA contest ! ">
       <div >
           <a
             href="/PRMITR_Coding_Contest_Guidelines.pdf"
@@ -40,7 +40,7 @@ export default function About() {
             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#1d4ed8")}
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#2563eb")}
           >
-            📄 Download Contest Guidelines
+            📄 Download
           </a>
           </div>
       
