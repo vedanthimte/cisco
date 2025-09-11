@@ -22,7 +22,7 @@ export default function Popup() {
 
   const handleView = () => {
     setShowPopup(false);
-    navigate("/register");
+    navigate("/events");
   };
 
   if (!showPopup) return null;
@@ -33,12 +33,12 @@ export default function Popup() {
         <button className="popup-close" onClick={handleClose}>
           ✖
         </button>
-        <h2>Limited Seats Only!</h2>
+        <h2>Orientation Program</h2>
         <p>
-          Join our <strong>Cyber Security Workshop</strong> and explore the
-          latest trends in security and ethical hacking.
+          For new students: Join us on <strong>15th and 16th September</strong> to learn about the
+          Cisco Networking Academy and explore the latest trends in tech.
         </p>
-       
+
         <button className="popup-action" onClick={handleView}>
           View
         </button>

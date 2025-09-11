@@ -36,7 +36,10 @@ export default function Footer(){
         </div>
       </div>
       <div className="container mono" style={{marginTop:14, textAlign:'center'}}>
-        © {new Date().getFullYear()} CISCO | All rights reserved
+        © {new Date().getFullYear()} PRMITR CISCO | All Rights Reserved 
+      </div>
+      <div className="container mono" style={{marginTop:14, textAlign:'center'}}>
+        Credits: Site created and managed by Vedant Himte
       </div>
     </footer>
   )

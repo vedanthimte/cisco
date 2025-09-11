@@ -129,7 +129,7 @@ export const teamLeads = [
   {
     name: "Rahul Kharap",
     role: "Creative Team Lead",
-    bio: "Passionate about frontend and backend development.",
+    bio: "Content Creator | Photograper | Editor",
     image: "/assets/team/Rahul_Kharap.jpg",
     links: {
       linkedin: "#",
@@ -140,8 +140,8 @@ export const teamLeads = [
   {
     name: "Lajari Pawanikar",
     role: "Creative Team Lead",
-    bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/LajariPawanikar.jpg",
+    bio: "Content Creator | Photograper | Editor",
+    image: "/assets/team/Lajaripawnikar.jpg",
     links: {
       linkedin: "#",
       github: "#",
@@ -229,10 +229,10 @@ export const teamMembers = [
     }
   },
   {
-    name: "Parth Deshmukh",
+    name: "Parth Barad",
     role: "AI & Data Science Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/AI&DS_Parth_Deshmukh.jpg",
+    image: "/assets/team/PARTHBARAD.jpg",
     links: {
       linkedin: "#",
       github: "#",
@@ -240,12 +240,12 @@ export const teamMembers = [
     }
   },
   {
-    name: "Parth Barad",
+    name: "Ayush Ghatol",
     role: "AI & Data Science Member",
     bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/PARTHBARAD.jpg",
+    image: "/assets/team/aayushghatol.jpg",
     links: {
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/ayush-ghatol-3b2607290",
       github: "#",
       insta: "#"
     }
@@ -409,6 +409,17 @@ export const teamMembers = [
     role: "Networking Member",
     bio: "Focuses on network automation and scripting.",
     image: "/assets/team/AnushkaVishwakarma.jpg",
+    links: {
+      linkedin: "#",
+      github: "#",
+      insta: "#"
+    }
+  },
+  {
+    name: "Aditya Rathod",
+    role: "Creative Team Member",
+    bio: "Photograper | Editor",
+    image: "/assets/team/adityarathod.jpg",
     links: {
       linkedin: "#",
       github: "#",

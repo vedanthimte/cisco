@@ -2,8 +2,10 @@
   --bg:#0b1220;
   --panel:#10192b;
   --soft:#17243a;
-  --brand:#00bceb;
-  --accent:#13c2c2;
+  /* --brand:#00bceb; old */
+  --brand:#0088c7;
+  /* --accent:#13c2c2;  old */
+  --accent:#0088c7;
   --text:#e6eef8;
   --muted:#9bb0cc;
   --card:#0f1726;
@@ -41,7 +43,7 @@ main{padding-bottom:40px}
 }
 
 /* Buttons */
-.btn{display:inline-block;padding:10px 14px;border-radius:12px;background:var(--brand);color:#001019;font-weight:700;border:0;cursor:pointer}
+.btn{display:inline-block;padding:10px 14px;border-radius:12px;background:var(--brand);color:#01090e;font-weight:700;border:0;cursor:pointer}
 .btn.ghost{background:transparent;color:var(--text);border:1px solid #1e3357}
 
 /* Hero & panels */

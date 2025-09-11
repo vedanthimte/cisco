@@ -8,7 +8,7 @@ export const events = [
     time: "10:00–16:00",
     mode: "On-Campus",
     location: "CSE DEPT ,PRMITR ",
-    tags: ["CCNA", "Routing & Switching"],
+    tags: ["CCNA", "Routing & Switching","Official Certificate"],
     description:
       "7+ Days Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
     link: "#"
@@ -20,7 +20,7 @@ export const events = [
     time: "10:00–16:00",
     mode: "On-Campus",
     location: "CSE DEPT ,PRMITR ",
-    tags: ["CCNA", "Routing & Switching"],
+    tags: ["CCNA", "Routing & Switching", "Official Certificate"],
     description:
       "Complete Packet Tracer Fast-track IPv4/IPv6, subnetting, VLANs. Includes guided labs and take-home mini-labs.",
     link: "#"
@@ -28,14 +28,14 @@ export const events = [
   {
   id: "dsa",
   title: "DSA Contest",
-  date: "2025-09-13",
+  date: "2025-09-19",
   time: "13:30–17:30",
   mode: "On-Campus",
   location: "CSE Dept, PRMITR",
   tags: ["Algorithms", "Data Structures", "Competitive Programming"],
   description:
     "Solve challenging problems on arrays, trees, algorithms. Beginner to advanced levels, leaderboard live.",
-  link: "#" },
+  link: "/contest" },
   
   {
   id: "cyber-security",
@@ -47,8 +47,22 @@ export const events = [
   tags: ["Ethical Hacking", "Live Attack Perform", "Data Privacy"],
   description:
     "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
-  link: "https://cisco.prmitr.in/register"
+  link: "/register"
+} ,
+{
+  id: "orientation-program-25",
+  title: "Orientation Program '25",
+  date: "2025-09-15",
+  time: "11:00–13:00",
+  mode: "On-Campus",
+  location: "Extc Dept, PRMITR",
+  tags: ["Know About Cisco", "Plan Of Action", "Certification"],
+  description:
+    "Know about PRMITR CISCO NETWORKING ACADEMY, last year achievements, felicitation, courses, future scope.",
+  link: "#",
+  live: false 
 }
+
 
 ]
 

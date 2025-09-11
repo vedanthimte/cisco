@@ -10,6 +10,8 @@ import BlogPost from './pages/BlogPost.jsx'
 import Gallery from './pages/Gallery.jsx'
 import About from './pages/About.jsx'
 import Register from './pages/Register.jsx'
+import Contest from './pages/Contest.jsx'
+
 import NotFound from './pages/NotFound.jsx'
 
 
@@ -24,6 +26,7 @@ export default function App(){
         <Route path="/courses" element={<Courses />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/contest" element={<Contest />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/about" element={<About />} />

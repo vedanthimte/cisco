@@ -16,7 +16,7 @@ export default function Hero({title,subtitle,ctaPrimary,ctaSecondary, right}){
         </motion.div>
         <motion.div className="panel"
           initial={{opacity:0, scale:.98}} animate={{opacity:1, scale:1}} transition={{duration:.6, delay:.1}}>
-          {right || <img alt="Network illustration" src="/assets/cisco_logo.jpg" style={{width:'100%',borderRadius:12}}/>}
+          {right || <img alt="Cisco Team" src="/assets/hometeam.jpg" style={{width:'100%',borderRadius:12}}/>}
         </motion.div>
       </div>
     </section>

@@ -30,7 +30,7 @@ export default function CountdownWidget() {
         data-style="flip2"
         data-timezone="Asia/Kolkata"
         data-textcolor="#ffffff"
-        data-date="2025-09-03 10:00"
+        data-date="2025-09-11 18:00"
         data-digitscolor="#ffffff"
         data-unitscolor="#ffffff"
         style={{

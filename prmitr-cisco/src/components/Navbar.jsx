@@ -11,6 +11,7 @@ export default function Navbar(){
     {to:'/events', label:'Events'},
     {to:'/team', label:'Team'},
     {to:'/faculty', label:'Faculty'},
+    // {to:'/contest', label:'Contest'},
     {to:'/courses', label:'Courses'},
     {to:'/gallery', label:'Gallery'},
     {to:'/blog', label:'Blog'},
@@ -35,7 +36,7 @@ export default function Navbar(){
               {l.label}
             </NavLink>
           ))}
-          {/* <a className="btn" href=mailto: onClick={()=>setOpen(false)}>Contact</a> */}
+          <a className="btn" href="/contest" style={{backgroundColor:'#2564ebe7'}} onClick={()=>setOpen(false)}>Contest</a>
         </div>
       </div>
     </nav>
