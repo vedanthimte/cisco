@@ -50,7 +50,7 @@ export default function About() {
         <div
           style={{
             width: "100%",
-            height: "850px",
+            height: "1250px",
             overflow: "hidden",
             border: "none",
           }}
