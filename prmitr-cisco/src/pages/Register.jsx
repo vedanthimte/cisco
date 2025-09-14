@@ -1,35 +1,3 @@
-// import Section from '../components/Section.jsx';
-// import Count from "../components/Count.jsx";
-
-// export default function About() {
-//   return (
-    
-//     <Section title="Cyber Security Workshop" subtitle="">
-//       <Count />
-      
-//       <div
-//         style={{
-//           width: "100%",
-//           height: "850px",        // Height of visible area
-//           overflow: "hidden",     // Hide overflowing content
-//           border: "none"
-//         }}
-//       >
-//         <iframe
-//           src=""
-//           frameBorder="0"
-//           style={{
-//             width: "100%",
-//             height: "1000px",     // Height including content you'd like to crop
-//             border: "none",
-//             marginTop: "-120px"   // Shift content up to cut off the header
-//           }}
-//         />
-//       </div>
-//     </Section>
-//   );
-// }
-
 import { useState, useEffect } from "react";
 import Section from '../components/Section.jsx';
 import Count from "../components/Count.jsx";
@@ -54,7 +22,7 @@ export default function About() {
   }, [targetDate]);
 
   return (
-    <Section title="Cyber Security Workshop" subtitle="">
+    <Section title="Introduction To AI " subtitle="Free AI Masterclass - ONLY FOR FIRST YEAR  ">
       {!isLive ? (
         <Count targetDate={targetDate} /> 
         // ⬆️ Pass the same date to countdown (if Count supports props)
@@ -68,7 +36,7 @@ export default function About() {
           }}
         >
           <iframe
-            src="https://payments.cashfree.com/forms?code=prmitr-cisco-cyber"
+            src="https://forms.gle/h72tYrueDJkVGrhA8"
             frameBorder="0"
             style={{
               width: "100%",

@@ -15,6 +15,7 @@ export default function Navbar(){
     {to:'/courses', label:'Courses'},
     {to:'/gallery', label:'Gallery'},
     {to:'/blog', label:'Blog'},
+    {to:'/register', label:'  Register'},
     
   ]
   return (

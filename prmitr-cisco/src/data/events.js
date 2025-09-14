@@ -11,7 +11,7 @@ export const events = [
     tags: ["CCNA", "Routing & Switching","Official Certificate"],
     description:
       "7+ Days Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
-    link: "#"
+    link: "/gallery"
   },
   {
     id: "packer-bootcamp",
@@ -23,7 +23,7 @@ export const events = [
     tags: ["CCNA", "Routing & Switching", "Official Certificate"],
     description:
       "Complete Packet Tracer Fast-track IPv4/IPv6, subnetting, VLANs. Includes guided labs and take-home mini-labs.",
-    link: "#"
+    link: "/gallery"
   },
   {
   id: "dsa",
@@ -47,7 +47,7 @@ export const events = [
   tags: ["Ethical Hacking", "Live Attack Perform", "Data Privacy"],
   description:
     "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
-  link: "/register"
+  link: "/gallery"
 } ,
 {
   id: "orientation-program-25",
@@ -59,9 +59,22 @@ export const events = [
   tags: ["Know About Cisco", "Plan Of Action", "Certification"],
   description:
     "Know about PRMITR CISCO NETWORKING ACADEMY, last year achievements, felicitation, courses, future scope.",
-  link: "#",
+  link: "/gallery",
   live: false 
+},
+{
+  id: "ai-masterclass",
+  title: "AI Masterclass",
+  date: "2025-09-18",
+  time: "09:00–11:00",
+  mode: "On-Campus",
+  location: "CSE Dept, PRMITR",
+  tags: ["Artificial Intelligence", "Machine Learning", "Data Privacy"],
+  description:
+    "Dive into the world of Artificial Intelligence and Machine Learning. Explore real-world applications, AI while ensuring data privacy and security.",
+  link: "/register",
 }
+
 
 
 ]
