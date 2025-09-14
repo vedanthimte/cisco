@@ -22,7 +22,7 @@ export default function Popup() {
 
   const handleView = () => {
     setShowPopup(false);
-    navigate("/events");
+    navigate("/register");
   };
 
   if (!showPopup) return null;
@@ -33,11 +33,15 @@ export default function Popup() {
         <button className="popup-close" onClick={handleClose}>
           ✖
         </button>
-        <h2>Orientation Program</h2>
+        <h2>Limited Seats Only !</h2>
+        <p>
+          Join <strong>FREE AI MASTERCLASS</strong> deep dive into AI/ML. Discover how AI is transforming industries, explore real-world applications. 
+        </p>
+        {/* <h2>Orientation Program</h2>
         <p>
           For new students: Join us on <strong>15th and 16th September</strong> to learn about the
           Cisco Networking Academy and explore the latest trends in tech.
-        </p>
+        </p> */}
 
         <button className="popup-action" onClick={handleView}>
           View
