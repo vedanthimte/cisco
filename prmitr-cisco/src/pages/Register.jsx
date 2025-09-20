@@ -22,7 +22,7 @@ export default function About() {
   }, [targetDate]);
 
   return (
-    <Section title="Introduction To AI " subtitle="Free AI Masterclass - ONLY FOR FIRST YEAR  ">
+    <Section title="New Events Comming Soon!" subtitle="Stay Tuned ...">
       {!isLive ? (
         <Count targetDate={targetDate} /> 
         // ⬆️ Pass the same date to countdown (if Count supports props)
@@ -36,7 +36,7 @@ export default function About() {
           }}
         >
           <iframe
-            src="https://forms.gle/h72tYrueDJkVGrhA8"
+            src=""
             frameBorder="0"
             style={{
               width: "100%",

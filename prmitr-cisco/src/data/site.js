@@ -1,6 +1,6 @@
 export const site = {
   orgName: "PRMITR Cisco Networking Academy",
-  shortName: "CISCO",
+  shortName: "PRMITR",
   tagline: "Empowering You to Build the Future !",
   location: "Amravati, Maharashtra, India",
   email: "ciscoprmitr@gmail.com",
