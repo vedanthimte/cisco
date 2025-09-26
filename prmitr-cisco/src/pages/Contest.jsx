@@ -55,7 +55,7 @@ export default function About() {
             border: "none",
           }}
         >
-          <iframe
+          {/* <iframe
             src="https://payments.cashfree.com/forms?code=dsa-contest"
             frameBorder="0"
             style={{
@@ -64,7 +64,8 @@ export default function About() {
               border: "none",
               // marginTop: "-120px",
             }}
-          />
+          /> */}
+          
         </div>
       )
       }

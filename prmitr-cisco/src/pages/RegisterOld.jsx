@@ -23,7 +23,7 @@ export default function About() {
 
   return (
     // <Section title="New Events Comming Soon!" subtitle="Stay Tuned ...">
-    <Section title="" subtitle="">
+    <Section title="CCNA 1 Workshop '25" subtitle="">
       {!isLive ? (
         <Count targetDate={targetDate} />
         // ⬆️ Pass the same date to countdown (if Count supports props)
@@ -36,6 +36,17 @@ export default function About() {
             border: "none",
           }}
         >
+          {/* <iframe
+            src="https://forms.gle/uHXabWiTsMTPzHxD6"
+            frameBorder="0"
+            style={{
+              width: "100%",
+              height: "1000px",
+              border: "none",
+              // marginTop: "-120px",
+            }}
+          /> */}
+
           <section className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50 flex justify-center items-center p-6">
       <div className="max-w-3xl bg-white rounded-2xl shadow-xl p-8 space-y-6">
         {/* Heading */}
