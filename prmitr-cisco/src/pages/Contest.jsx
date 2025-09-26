@@ -22,7 +22,11 @@ export default function About() {
   }, [targetDate]);
 
   return (
-    <Section title="DSA & CP CONTEST" subtitle="Download guideline and instruction for DSA contest ! ">
+    <>
+    
+    {/* <Section title="DSA & CP CONTEST" subtitle="Download guideline and instruction for DSA contest ! "> */}
+    <Section title="" subtitle="">
+      <Leaderboard/>
       <div >
           <a
             href="/PRMITR_Coding_Contest_Guidelines.pdf"
@@ -41,7 +45,7 @@ export default function About() {
             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#1d4ed8")}
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#2563eb")}
           >
-            📄 Download
+            📄 Guidelines
           </a>
           </div>
       
@@ -66,7 +70,7 @@ export default function About() {
               // marginTop: "-120px",
             }}
           /> */}
-          <Leaderboard/>
+          
 
 
 
@@ -76,5 +80,6 @@ export default function About() {
       )
       }
     </Section >
+    </>
   );
 }

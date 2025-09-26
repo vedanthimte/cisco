@@ -1,51 +1,43 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Leaderboard.css";
+import { supabase } from "../data/supabaseClient"; // Supabase client
 
 const Leaderboard = () => {
-  // Sample data (can be fetched from API later)
-  const data = [
-    {
-      rank: 1,
-      name: "Vedant Himte",
-      hackerId: "vedant123",
-      branch: "CSE",
-      year: "3rd",
-      scores: { Jan: 300, Feb: 280, Mar: 400 },
-    },
-    {
-      rank: 2,
-      name: "Riya Sharma",
-      hackerId: "riya_dev",
-      branch: "IT",
-      year: "2nd",
-      scores: { Jan: 250, Feb: 290, Mar: 380 },
-    },
-    {
-      rank: 3,
-      name: "Arjun Mehta",
-      hackerId: "arjun_codes",
-      branch: "CSE",
-      year: "4th",
-      scores: { Jan: 270, Feb: 260, Mar: 350 },
-    },
-    {
-      rank: 4,
-      name: "Sneha Patel",
-      hackerId: "sneha_hack",
-      branch: "ECE",
-      year: "3rd",
-      scores: { Jan: 200, Feb: 300, Mar: 320 },
-    },
-  ];
-
-  const months = ["Jan", "Feb", "Mar"];
-  const [selectedMonth, setSelectedMonth] = useState("Jan");
+  const [data, setData] = useState([]);
+  const [months, setMonths] = useState([]);
+  const [selectedMonth, setSelectedMonth] = useState("");
   const [search, setSearch] = useState("");
 
-  // Filter + calculate scores
+  // Fetch leaderboard data from Supabase
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data: leaderboard, error } = await supabase
+        .from("leaderboard") // your table name
+        .select("*");
+
+      if (error) {
+        console.error("Error fetching leaderboard:", error.message);
+      } else {
+        setData(leaderboard);
+
+        if (leaderboard.length > 0) {
+          const availableMonths = Object.keys(leaderboard[0].scores || {});
+          setMonths(availableMonths);
+          setSelectedMonth(availableMonths[0]); // pick first month
+        }
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  // Prepare filtered + ranked data
   const filteredData = data
     .map((row) => {
-      const total = Object.values(row.scores).reduce((a, b) => a + b, 0);
+      const total = Object.values(row.scores || {}).reduce(
+        (a, b) => a + b,
+        0
+      );
       return { ...row, total };
     })
     .filter(
@@ -53,14 +45,14 @@ const Leaderboard = () => {
         row.name.toLowerCase().includes(search.toLowerCase()) ||
         row.hackerId.toLowerCase().includes(search.toLowerCase())
     )
-    .sort((a, b) => b.total - a.total) // sort by total score
-    .map((row, i) => ({ ...row, rank: i + 1 })); // reassign ranks
+    .sort((a, b) => b.total - a.total)
+    .map((row, i) => ({ ...row, rank: i + 1 }));
 
   return (
     <div className="leaderboard-container">
       <h1 className="leaderboard-title">🏆 Monthly DSA Contest Leaderboard</h1>
 
-      {/* Search & Filter */}
+      {/* Controls */}
       <div className="controls">
         <input
           type="text"
@@ -69,6 +61,7 @@ const Leaderboard = () => {
           onChange={(e) => setSearch(e.target.value)}
           className="search-bar"
         />
+
         <select
           value={selectedMonth}
           onChange={(e) => setSelectedMonth(e.target.value)}
@@ -79,7 +72,6 @@ const Leaderboard = () => {
               {m} Score
             </option>
           ))}
-          <option value="total">Total Score</option>
         </select>
       </div>
 
@@ -90,7 +82,8 @@ const Leaderboard = () => {
             <th>Rank</th>
             <th>Name</th>
             <th>HackerRank ID</th>
-            <th>{selectedMonth === "total" ? "Total Score" : `${selectedMonth} Score`}</th>
+            <th>{selectedMonth} Score</th>
+            <th>Total Score</th>
             <th>Branch</th>
             <th>Year</th>
           </tr>
@@ -101,11 +94,8 @@ const Leaderboard = () => {
               <td className="rank">{row.rank}</td>
               <td>{row.name}</td>
               <td className="highlight">{row.hackerId}</td>
-              <td className="score">
-                {selectedMonth === "total"
-                  ? row.total
-                  : row.scores[selectedMonth]}
-              </td>
+              <td className="score">{row.scores[selectedMonth] || 0}</td>
+              <td className="total">{row.total}</td>
               <td>{row.branch}</td>
               <td>{row.year}</td>
             </tr>
