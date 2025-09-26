@@ -23,7 +23,7 @@ export default function About() {
 
   return (
     // <Section title="New Events Comming Soon!" subtitle="Stay Tuned ...">
-    <Section title="CCNA 1 Workshop '25" subtitle="Stay Tuned ...">
+    <Section title="CCNA 1 Workshop '25" subtitle="100% Attendance and GET 50% CASHBACK">
       {!isLive ? (
         <Count targetDate={targetDate} /> 
         // ⬆️ Pass the same date to countdown (if Count supports props)
@@ -37,7 +37,7 @@ export default function About() {
           }}
         >
           <iframe
-            src="https://forms.gle/uQCS2Ccef4vcubtr5"
+            src="https://forms.gle/uHXabWiTsMTPzHxD6"
             frameBorder="0"
             style={{
               width: "100%",

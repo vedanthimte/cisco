@@ -5,7 +5,8 @@ import App from './App.jsx'
 import Appredirect from './Appredirect.jsx'
 import './styles.css'
 
-{if (window.location.hostname == "academy.prmitr.in"){
+{}
+{if ((window.location.hostname == "academy.prmitr.in") || (window.location.hostname == "studious-barnacle-gjpvq4grx7r3pvjx-5173.app.github.dev")){
   
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>

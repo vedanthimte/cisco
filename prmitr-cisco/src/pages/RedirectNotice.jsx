@@ -18,7 +18,7 @@ const RedirectNotice = () => {
       <h1>Site Updated !</h1>
       <h1>"<a href="https://academy.prmitr.in">academy.prmitr.in</a>"</h1>
       {/* <p>You accessed this site using: <strong>{enteredDomain}</strong></p> */}
-      <p>Redirecting to <a href="https://academy.prmitr.in">academy.prmitr.in</a> in 8 seconds...</p>
+      <p>Redirecting to <a href="https://academy.prmitr.in">academy.prmitr.in</a> in 5 seconds...</p>
       
     </div>
   );
