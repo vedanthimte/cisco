@@ -12,7 +12,7 @@ const Leaderboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       const { data: leaderboard, error } = await supabase
-        .from("leaderboard") // your table name
+        .from("leaderboard")
         .select("*");
 
       if (error) {
@@ -75,33 +75,35 @@ const Leaderboard = () => {
         </select>
       </div>
 
-      {/* Leaderboard Table */}
-      <table className="leaderboard-table">
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Name</th>
-            <th>HackerRank ID</th>
-            <th>{selectedMonth} Score</th>
-            <th>Total Score</th>
-            <th>Branch</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredData.map((row, index) => (
-            <tr key={index} className={row.rank <= 3 ? `top-${row.rank}` : ""}>
-              <td className="rank">{row.rank}</td>
-              <td>{row.name}</td>
-              <td className="highlight">{row.hackerId}</td>
-              <td className="score">{row.scores[selectedMonth] || 0}</td>
-              <td className="total">{row.total}</td>
-              <td>{row.branch}</td>
-              <td>{row.year}</td>
+      {/* Responsive Table Wrapper */}
+      <div className="table-responsive">
+        <table className="leaderboard-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>HackerRank ID</th>
+              <th>{selectedMonth} Score</th>
+              <th>Total Score</th>
+              <th>Branch</th>
+              <th>Year</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {filteredData.map((row, index) => (
+              <tr key={index} className={row.rank <= 3 ? `top-${row.rank}` : ""}>
+                <td className="rank">{row.rank}</td>
+                <td>{row.name}</td>
+                <td className="highlight">{row.hackerId}</td>
+                <td className="score">{row.scores[selectedMonth] || 0}</td>
+                <td className="total">{row.total}</td>
+                <td>{row.branch}</td>
+                <td>{row.year}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

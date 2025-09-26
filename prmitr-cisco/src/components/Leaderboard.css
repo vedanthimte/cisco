@@ -8,15 +8,7 @@
   border: 1px solid #333;
 }
 
-/* .leaderboard-title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #646cff; 
-  text-shadow: 0 0 10px rgba(100, 108, 255, 0.4);
-} */
-
-
+/* Title */
 .leaderboard-title {
   text-align: center;
   font-size: 2rem;
@@ -24,9 +16,6 @@
   color: #ffcc66; 
   text-shadow: 0 0 10px rgba(255, 204, 102, 0.4);
 }
-
-
-
 
 /* Controls */
 .controls {
@@ -55,12 +44,20 @@
   border-color: #646cff;
 }
 
-/* Table */
+/* Table wrapper for horizontal scrolling */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .leaderboard-table {
   width: 100%;
   border-collapse: collapse;
   border-radius: 12px;
   overflow: hidden;
+  table-layout: auto;
+  min-width: 700px; /* ensures horizontal scroll on small screens */
 }
 
 .leaderboard-table thead {
@@ -73,11 +70,14 @@
   color: #646cff;
   font-weight: bold;
   border-bottom: 2px solid #333;
+  font-size: 0.95rem;
 }
 
 .leaderboard-table td {
   padding: 14px;
   border-bottom: 1px solid #333;
+  font-size: 0.9rem;
+  word-break: break-word;
 }
 
 .leaderboard-table tbody tr {
@@ -85,18 +85,18 @@
 }
 
 .leaderboard-table tbody tr:hover {
-  background: rgba(100, 108, 255, 0.08); /* subtle accent hover */
+  background: rgba(100, 108, 255, 0.08);
 }
 
 /* Highlights */
 .rank {
   font-weight: bold;
-  color: #646cff; /* accent */
+  color: #646cff;
 }
 
 .score {
   font-weight: bold;
-  color: #4cafef; /* soft blue-green */
+  color: #4cafef;
 }
 
 .total {
@@ -118,4 +118,45 @@
 }
 .top-3 {
   background: rgba(100, 108, 255, 0.05);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  .search-bar,
+  .month-select {
+    width: 100%;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 10px 8px;
+    font-size: 0.8rem;
+  }
+
+  .leaderboard-table th:nth-child(4),
+  .leaderboard-table td:nth-child(4),
+  .leaderboard-table th:nth-child(5),
+  .leaderboard-table td:nth-child(5) {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .leaderboard-title {
+    font-size: 1.5rem;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 8px 6px;
+    font-size: 0.75rem;
+  }
+
+  .controls {
+    gap: 6px;
+  }
 }

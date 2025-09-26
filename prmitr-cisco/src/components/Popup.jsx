@@ -35,7 +35,7 @@ export default function Popup() {
         </button>
         <h2>Exclusive Workshop !</h2>
         <p>
-          <strong><h3>From Cables to Cloud </h3></strong>Join CCNA-1 Workshop! Build the skills that power tech! 
+          <strong><h3>From Cables to Cloud </h3></strong>Join CCNA-1 Workshop, Build the skills that power tech! 
         </p>
 
         <button className="popup-action" onClick={handleView}>
