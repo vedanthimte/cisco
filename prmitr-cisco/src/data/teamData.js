@@ -163,17 +163,6 @@ export const teamMembers = [
     }
   },
   {
-    name: "Parth Jaiswal",
-    role: "Management Member",
-    bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/ParthJaiswal.jpg",
-    links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
-    }
-  },
-  {
     name: "Prasanna Patil",
     role: "Management Member",
     bio: "Focuses on network automation and scripting.",

@@ -33,15 +33,10 @@ export default function Popup() {
         <button className="popup-close" onClick={handleClose}>
           ✖
         </button>
-        <h2>Limited Seats Only !</h2>
+        <h2>Exclusive Workshop !</h2>
         <p>
-          Join <strong>FREE AI MASTERCLASS</strong> deep dive into AI/ML. Discover how AI is transforming industries, explore real-world applications. 
+          <strong><h3>From Cables to Cloud </h3></strong>  Build the skills that power tomorrow’s tech. Join CCNA-1 Workshop
         </p>
-        {/* <h2>Orientation Program</h2>
-        <p>
-          For new students: Join us on <strong>15th and 16th September</strong> to learn about the
-          Cisco Networking Academy and explore the latest trends in tech.
-        </p> */}
 
         <button className="popup-action" onClick={handleView}>
           View

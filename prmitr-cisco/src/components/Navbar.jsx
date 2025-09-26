@@ -7,7 +7,7 @@ export default function Navbar(){
   const [open,setOpen] = useState(false)
   const links = [
     {to:'/', label:'Home', end:true},
-    {to:'/about', label:'About'},
+    // {to:'/about', label:'About'},
     {to:'/events', label:'Events'},
     {to:'/team', label:'Team'},
     {to:'/faculty', label:'Faculty'},
@@ -16,9 +16,12 @@ export default function Navbar(){
     {to:'/gallery', label:'Gallery'},
     {to:'/blog', label:'Blog'},
     {to:'/register', label:'  Register'},
+    {to:'/contest', label:'  Contest'},
+    
     
   ]
   return (
+
     <nav className="nav">
       <div className="container nav-inner">
         <Link to="/" className="brand" onClick={()=>setOpen(false)}>
@@ -37,7 +40,7 @@ export default function Navbar(){
               {l.label}
             </NavLink>
           ))}
-          <a className="btn" href="/contest" style={{backgroundColor:'#2564ebe7'}} onClick={()=>setOpen(false)}>Contest</a>
+          <a className="btn" href="https://verify.prmitr.in" target="_blank" style={{backgroundColor:'#225ee0e7'}} onClick={()=>setOpen(false)}>Verify</a>
         </div>
       </div>
     </nav>

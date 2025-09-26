@@ -82,17 +82,18 @@ export const courses = {
     link: "https://www.netacad.com/courses/python-essentials-2?courseLang=en-US&instance_id=e38be72d-b319-47eb-8a2a-d0c44c1093b6"
   }
   ],
+  
   paid: [
-    {
-      id: "ccna",
-      title: "CCNA (200-301) Prep",
-      level: "Intermediate",
-      hours: "100+",
-      price: "₹1999",
-      skills: ["Routing", "Switching", "Security", "Automation"],
-      description: "Exam-oriented track with labs, quizzes, and mock tests. Includes 1:1 doubt sessions.",
-      link: "#"
-    },
+    // {
+    //   id: "ccna",
+    //   title: "CCNA (200-301) Prep",
+    //   level: "Intermediate",
+    //   hours: "100+",
+    //   price: "₹1999",
+    //   skills: ["Routing", "Switching", "Security", "Automation"],
+    //   description: "Exam-oriented track with labs, quizzes, and mock tests. Includes 1:1 doubt sessions.",
+    //   link: "#"
+    // },
     // {
     //   id: "cyberops-associate",
     //   title: "CyberOps Associate",

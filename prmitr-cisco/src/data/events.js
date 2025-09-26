@@ -3,7 +3,7 @@ import dayjs from "dayjs"
 export const events = [
   {
     id: "ccna-bootcamp",
-    title: "CCNA 1 WorkShop",
+    title: "CCNA 1 - 2024 WorkShop",
     date: "2024-12-12",
     time: "10:00–16:00",
     mode: "On-Campus",
@@ -26,15 +26,26 @@ export const events = [
     link: "/gallery"
   },
   {
-  id: "dsa",
-  title: "DSA Contest",
+  id: "dsa-25-sept",
+  title: "DSA Contest Sept",
   date: "2025-09-19",
-  time: "13:30–17:30",
+  time: "09:00–11:00",
   mode: "On-Campus",
   location: "CSE Dept, PRMITR",
   tags: ["Algorithms", "Data Structures", "Competitive Programming"],
   description:
-    "Solve challenging problems on arrays, trees, algorithms. Beginner to advanced levels, leaderboard live.",
+    "1Solve challenging problems on arrays, trees, algorithms. Beginner to advanced levels, leaderboard live.",
+  link: "/contest" },
+  {
+  id: "dsa-25-oct",
+  title: "DSA Contest Oct",
+  date: "2025-10-19",
+  time: "09:00–11:00",
+  mode: "On-Campus",
+  location: "CSE Dept, PRMITR",
+  tags: ["Algorithms", "Data Structures", "Competitive Programming"],
+  description:
+    "2nd Contest - Solve challenging problems on arrays, algorithms. Beginner to advanced levels, leaderboard live.",
   link: "/contest" },
   
   {
@@ -73,7 +84,19 @@ export const events = [
   description:
     "Dive into the world of Artificial Intelligence and Machine Learning. Explore real-world applications, AI while ensuring data privacy and security.",
   link: "/register",
-}
+}, 
+{
+    id: "ccna1-bootcamp-2025",
+    title: "CCNA 1 WorkShop '25",
+    date: "2025-10-06",
+    time: "09:00–11:00",
+    mode: "On-Campus",
+    location: "CSE DEPT ,PRMITR ",
+    tags: ["CCNA", "Routing & Switching","Official Certificate"],
+    description:
+      "7+ Days Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
+    link: "/register"
+  },
 
 
 

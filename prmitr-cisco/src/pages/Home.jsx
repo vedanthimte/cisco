@@ -10,6 +10,7 @@ import { courses } from '../data/courses.js'
 import FacultySection from "../components/FacultySection";
 
 import Popup from "../components/Popup.jsx";
+import About from "../pages/About.jsx"
 
 import SectionTitle from "../components/SectionTitle";
 import TeamCard from "../components/TeamCard";
@@ -42,6 +43,7 @@ export default function Home(){
           {courses.paid.slice(0,1).map(c => <CourseCard key={c.id} c={c} />)}
         </div>
       </Section>
+        <About />
       <Section title="Latest from the Blog" subtitle="Tips, notes, and event recaps.">
         <div className="grid">
           {posts.slice(0,3).map(p => <BlogCard key={p.slug} post={p} />)}

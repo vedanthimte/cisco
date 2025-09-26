@@ -5,8 +5,8 @@ import Count from "../components/Count.jsx";
 export default function About() {
   const [isLive, setIsLive] = useState(false);
 
-  // 🎯 Target date: 3 September 2025, 10:00 AM IST
-  const targetDate = new Date("2025-09-03T10:00:00+05:30"); 
+  // 🎯 Target date: ex 23 September 2025, 10:00 AM IST
+  const targetDate = new Date("2025-09-01T10:00:00+05:30"); 
 
   useEffect(() => {
     const checkTime = () => {
@@ -22,7 +22,8 @@ export default function About() {
   }, [targetDate]);
 
   return (
-    <Section title="New Events Comming Soon!" subtitle="Stay Tuned ...">
+    // <Section title="New Events Comming Soon!" subtitle="Stay Tuned ...">
+    <Section title="CCNA 1 Workshop '25" subtitle="Stay Tuned ...">
       {!isLive ? (
         <Count targetDate={targetDate} /> 
         // ⬆️ Pass the same date to countdown (if Count supports props)
@@ -36,7 +37,7 @@ export default function About() {
           }}
         >
           <iframe
-            src=""
+            src="https://forms.gle/uQCS2Ccef4vcubtr5"
             frameBorder="0"
             style={{
               width: "100%",
