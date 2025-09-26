@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Section from '../components/Section.jsx';
 import Count from "../components/Count.jsx";
+import Leaderboard from "../components/Leaderboard.jsx";
 
 export default function About() {
   const [isLive, setIsLive] = useState(false);
@@ -65,7 +66,12 @@ export default function About() {
               // marginTop: "-120px",
             }}
           /> */}
-          
+          <Leaderboard/>
+
+
+
+
+
         </div>
       )
       }

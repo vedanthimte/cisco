@@ -1,0 +1,112 @@
+body {
+  background-color: #0e0e0e;
+  font-family: 'Segoe UI', sans-serif;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+.leaderboard-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  border: 1px solid #333;
+}
+
+.leaderboard-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.6);
+}
+
+/* Controls (Search + Filter) */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #0e0e0e;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.month-select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #0e0e0e;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.leaderboard-table thead {
+  background: #262626;
+}
+
+.leaderboard-table th {
+  padding: 14px;
+  text-align: left;
+  color: #ffcc00;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+
+.leaderboard-table td {
+  padding: 14px;
+  border-bottom: 1px solid #333;
+}
+
+.leaderboard-table tbody tr {
+  transition: background 0.3s;
+}
+
+.leaderboard-table tbody tr:hover {
+  background: rgba(255, 204, 0, 0.1);
+}
+
+/* Highlights */
+.rank {
+  font-weight: bold;
+  color: #00eaff;
+}
+
+.score {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.highlight {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+/* Top 3 Styling */
+.top-1 {
+  background: rgba(255, 215, 0, 0.15);
+}
+.top-2 {
+  background: rgba(192, 192, 192, 0.15);
+}
+.top-3 {
+  background: rgba(205, 127, 50, 0.15);
+}
