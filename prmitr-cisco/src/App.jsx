@@ -31,6 +31,7 @@ export default function App(){
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/verify" element="https://verify.prmitr.in" />
+        <Route path="/packet-tracer" element="https://www.netacad.com/courses/getting-started-cisco-packet-tracer?courseLang=en-US&instance_id=812aea64-5a77-4414-9860-155f4ed4d01c" />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
