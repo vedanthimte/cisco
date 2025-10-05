@@ -14,6 +14,18 @@ import Contest from './pages/Contest.jsx'
 
 import NotFound from './pages/NotFound.jsx'
 
+function PacketTracerRedirect() {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      window.location.href =
+        "https://www.netacad.com/courses/getting-started-cisco-packet-tracer?courseLang=en-US&instance_id=812aea64-5a77-4414-9860-155f4ed4d01c";
+    }, 3000); // 3 seconds delay
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  return <p>Redirecting to Cisco Packet Tracer course in 3 seconds...</p>;
+}
 
 export default function App(){
   return (
@@ -31,7 +43,7 @@ export default function App(){
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/verify" element="https://verify.prmitr.in" />
-        <Route path="/packet-tracer" element="https://www.netacad.com/courses/getting-started-cisco-packet-tracer?courseLang=en-US&instance_id=812aea64-5a77-4414-9860-155f4ed4d01c" />
+        <Route path="/packet-tracer" element={<PacketTracerRedirect />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
