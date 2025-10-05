@@ -33,77 +33,74 @@ export const galleryData = [
   {
     id: 1,
     title: "CISCO TEAM",
-    description: "First workshop session snapshot with participants engaged in activities.",
     image: "/assets/gallery/1img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 2,
     title: "CISCO TEAM",
-    description: "Second workshop session highlighting teamwork and collaboration.",
     image: "/assets/gallery/2img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 3,
     title: "CISCO TEAM",
-    description: "Third workshop session showcasing interactive discussions.",
     image: "/assets/gallery/3img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 4,
     title: "Co-Ordinators",
-    description: "Participants sharing insights during the fourth workshop session.",
+    description: "CISCO cordinators selections",
     image: "/assets/gallery/4img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 5,
     title: "Co-Ordinators",
-    description: "Fifth session snapshot capturing active involvement of students.",
+    description: "CISCO cordinators selections",
     image: "/assets/gallery/5img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 6,
     title: "Co-Ordinators",
-    description: "Group photo from the sixth workshop session.",
+    description: "CISCO cordinators selections.",
     image: "/assets/gallery/6img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 7,
     title: "Co-Ordinators",
-    description: "Seventh session highlighting practical learning experiences.",
+    description: "CISCO cordinators selections",
     image: "/assets/gallery/7img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 8,
     title: "Workshop c++",
-    description: "Interactive discussions and brainstorming during the eighth session.",
+    description: "The Engaging activities and Workshop.",
     image: "/assets/gallery/8img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 9,
     title: "Workshop c++",
-    description: "Ninth workshop session snapshot with team collaboration.",
+    description: "The Engaging activities and Workshop.",
     image: "/assets/gallery/9img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 10,
     title: "CCNA Workshop",
-    description: "Engaging activities and participation in the tenth session.",
+    description: "Engaging activities and participation in the  session.",
     image: "/assets/gallery/10img.jpg",
     tags: ["Workshop", "Gallery"]
   },
   {
     id: 11,
     title: " CCNA Workshop ",
-    description: "Eleventh session focusing on innovative ideas and teamwork.",
+    description: "Interactive discussions and brainstorming during the session",
     image: "/assets/gallery/11img.jpg",
     tags: ["Workshop", "Gallery"]
   },
