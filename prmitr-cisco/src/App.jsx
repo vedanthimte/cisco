@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import React, { useEffect } from "react";
 import Layout from './components/Layout.jsx'
 import Home from './pages/Home.jsx'
 import Events from './pages/Events.jsx'
