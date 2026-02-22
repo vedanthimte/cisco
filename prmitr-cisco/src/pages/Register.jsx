@@ -40,7 +40,7 @@ export default function About() {
       <div className="max-w-3xl bg-white rounded-2xl shadow-xl p-8 space-y-6">
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl font-bold text-center text-indigo-700">
-          Join our 8-day CCNA 1 Workshop
+          Join CCNA 1 Workshop
         </h1>
 
         {/* Intro */}
@@ -60,7 +60,7 @@ export default function About() {
         <div className="bg-indigo-50 rounded-xl p-5 shadow-inner">
           <h2 className="text-2xl font-semibold text-indigo-700 mb-3">📅 Workshop Details</h2>
           <ul className="space-y-2 text-gray-700">
-            <li><strong>Dates:</strong> October 06 – 14, 2025</li>
+            <li><strong>Dates:</strong> February 23, 2026</li>
             <li><strong>Time:</strong> 9:00 AM – 11:00 AM</li>
             <li><strong>Venue:</strong> CSE Department, PRMITR</li>
           </ul>
@@ -93,13 +93,15 @@ export default function About() {
         {/* Registration Info */}
         <div className="text-center">
           <p className="text-xl font-semibold text-orange-600">
-            🔥 Registration Opens: 29 September 2025
+            🔥 Registration is open !
           </p>
+          <p><a href="https://forms.gle/tiQ7AymDPm7Qtevz9">Register</a></p>
           <p className="text-gray-800 mt-2">
             Don’t miss this chance to <strong>learn, get certified!</strong>
           </p>
         </div>
       </div>
+      
     </section>
 
         </div>

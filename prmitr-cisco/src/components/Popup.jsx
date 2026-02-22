@@ -22,6 +22,7 @@ export default function Popup() {
 
   const handleView = () => {
     setShowPopup(false);
+    // navigate("https://forms.gle/tiQ7AymDPm7Qtevz9");
     navigate("/register");
   };
 

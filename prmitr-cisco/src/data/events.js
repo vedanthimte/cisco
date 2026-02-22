@@ -96,8 +96,19 @@ export const events = [
     description:
       "7+ Days Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
     link: "/register"
+  }, 
+{
+    id: "ccna1-bootcamp-2026",
+    title: "CCNA 1 WorkShop '26",
+    date: "2026-02-23",
+    time: "09:00–11:00",
+    mode: "On-Campus",
+    location: "CSE DEPT ,PRMITR ",
+    tags: ["CCNA", "Routing & Switching","Official Certificate"],
+    description:
+      "Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
+    link: "/register"
   },
-
 
 
 ]
