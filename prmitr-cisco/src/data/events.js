@@ -156,10 +156,30 @@ export const events = [
 
 ]
 
-export const splitEvents = () => {
-  const now = dayjs()
-  const upcoming = events.filter(e => dayjs(e.date).isAfter(now.subtract(1,'day'))).sort((a,b)=>a.date.localeCompare(b.date))
-  const past = events.filter(e => dayjs(e.date).isBefore(now.subtract(1,'day'))).sort((a,b)=>b.date.localeCompare(a.date))
-  return { upcoming, past }
-}
+// export const splitEvents = () => {
+//   const now = dayjs()
+//   const upcoming = events.filter(e => dayjs(e.date).isAfter(now.subtract(1,'day'))).sort((a,b)=>a.date.localeCompare(b.date))
+//   const past = events.filter(e => dayjs(e.date).isBefore(now.subtract(1,'day'))).sort((a,b)=>b.date.localeCompare(a.date))
+//   return { upcoming, past }
+// }
 
+export const splitEvents = () => {
+  const now = dayjs();
+
+  // ✅ ONGOING (today's events)
+  const ongoing = events.filter(e =>
+    dayjs(e.date).isSame(now, "day")
+  );
+
+  // ✅ UPCOMING (future events)
+  const upcoming = events
+    .filter(e => dayjs(e.date).isAfter(now, "day"))
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  // ✅ PAST (optional)
+  const past = events
+    .filter(e => dayjs(e.date).isBefore(now, "day"))
+    .sort((a, b) => b.date.localeCompare(a.date));
+
+  return { ongoing, upcoming, past };
+};
