@@ -104,17 +104,16 @@ export const teamLeads = [
       insta: "#"
     }
   },
-  {
-    name: "Arth Gundapure",
-    role: "DSA Lead",
-    bio: "Passionate about frontend and backend development.",
-    image: "/assets/team/Arth.png",
-    links: {
-      linkedin: "#",
-      github: "#",
-      insta: "#"
-    }
-  },
+  // {
+  //   name: "Arth Gundapure",
+  //   role: "DSA Lead",
+  //   bio: "Passionate about frontend and backend development.",
+  //   image: "/assets/team/Arth.png",
+  //   links: {
+  //     linkedin: "#",
+  //     github: "#",
+  //     insta: "#"
+  //   }
   {
     name: "Apurva Kadu ",
     role: "Networking Lead",
@@ -148,6 +147,17 @@ export const teamLeads = [
       insta: "#"
     }
   },
+  {
+    name: "Soham Ingole",
+    role: "Creative Team Lead",
+    bio: "Content Creator | Photograper | Editor",
+    image: "/assets/team/soham.jpeg",
+    links: {
+      linkedin: "#",
+      github: "#",
+      insta: "#"
+    }
+  },
 ];
 
 export const teamMembers = [
@@ -167,6 +177,17 @@ export const teamMembers = [
     role: "Management Member",
     bio: "Focuses on network automation and scripting.",
     image: "/assets/team/image.png",
+    links: {
+      linkedin: "#",
+      github: "#",
+      insta: "#"
+    }
+  },
+  {
+    name: "Tanvi Khatale",
+    role: "Management Member",
+    bio: "Focuses on network automation and scripting.",
+    image: "/assets/team/tanvi.jpg",
     links: {
       linkedin: "#",
       github: "#",
@@ -235,17 +256,6 @@ export const teamMembers = [
     image: "/assets/team/aayushghatol.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/ayush-ghatol-3b2607290",
-      github: "#",
-      insta: "#"
-    }
-  },
-  {
-    name: "Tanvi Khatale",
-    role: "Cybersecurity Member",
-    bio: "Focuses on network automation and scripting.",
-    image: "/assets/team/tanvi.jpg",
-    links: {
-      linkedin: "#",
       github: "#",
       insta: "#"
     }

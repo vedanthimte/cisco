@@ -8,14 +8,15 @@ import { events } from '../data/events.js'
 
 export default function Events() {
   const [params, setParams] = useSearchParams()
-  const filter = params.get('filter') || 'upcoming'
+
+  // 🔥 default = ALL
+  const filter = params.get('filter') || 'all'
 
   const setFilter = (value) => {
     setParams({ filter: value }, { replace: true })
   }
 
-  // 🔥 CORE LOGIC (using your existing data)
-  const { upcoming, ongoing, past } = useMemo(() => {
+  const { all, upcoming, ongoing, past } = useMemo(() => {
     const now = dayjs()
 
     const upcoming = []
@@ -30,41 +31,45 @@ export default function Events() {
         ? dayjs(`${event.date} ${endTime}`)
         : start.add(6, "hour")
 
-      // ✅ ONLY manual LIVE
       const isOngoing =
         event.isOngoing === true || event.live === true
 
       if (isOngoing) {
         ongoing.push(event)
-      } else if (now.isBefore(start)) {
+      }
+
+      if (now.isBefore(start)) {
         upcoming.push(event)
-      } else if (now.isAfter(end)) {
+      }
+
+      if (now.isAfter(end)) {
         past.push(event)
-      } else {
-        upcoming.push(event)
       }
     })
 
-    // sorting
-    upcoming.sort((a, b) => a.date.localeCompare(b.date))
-    ongoing.sort((a, b) => a.date.localeCompare(b.date))
-    past.sort((a, b) => b.date.localeCompare(a.date))
+    // 🔥 ALL events sorted by date (latest first or change if needed)
+    const all = [...events].sort((a, b) =>
+      b.date.localeCompare(a.date)
+    )
 
-    return { upcoming, ongoing, past }
+    return { all, upcoming, ongoing, past }
   }, [])
 
   const tabs = [
-    { label: 'Ongoing', value: 'ongoing' },
+    { label: 'All', value: 'all' },
     { label: 'Upcoming', value: 'upcoming' },
+    { label: 'Ongoing', value: 'ongoing' },
     { label: 'Past', value: 'past' }
   ]
 
   const eventList =
-    filter === 'ongoing'
+    filter === 'upcoming'
+      ? upcoming
+      : filter === 'ongoing'
       ? ongoing
       : filter === 'past'
       ? past
-      : upcoming
+      : all
 
   return (
     <Section
@@ -80,7 +85,7 @@ export default function Events() {
           ))
         ) : (
           <div className="mono text-center py-6">
-            🚫 No events available
+            No events available
           </div>
         )}
       </div>

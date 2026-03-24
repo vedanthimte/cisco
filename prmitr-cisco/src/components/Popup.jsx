@@ -22,12 +22,12 @@ export default function Popup() {
 
   const handleView = () => {
     setShowPopup(false);
-    // navigate("https://forms.gle/tiQ7AymDPm7Qtevz9");
-    navigate("/register");
+    navigate("ai.vedanthimte.in/api/register");
+    // navigate("/events");
   };
 
   if (!showPopup) return null;
-
+``
   return (
     <div className="popup-overlay">
       <div className="popup-box">
@@ -36,7 +36,7 @@ export default function Popup() {
         </button>
         <h2>Exclusive Workshop !</h2>
         <p>
-          <strong><h3>From Cables to Cloud </h3></strong>Join CCNA-1 Workshop, Build the skills that power tech! 
+          <strong><h3>CCNA 2 Workshop '26</h3></strong>Join Now, Build the skills that power tech! 
         </p>
 
         <button className="popup-action" onClick={handleView}>

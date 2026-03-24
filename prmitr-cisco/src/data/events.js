@@ -83,7 +83,7 @@ export const events = [
   tags: ["Artificial Intelligence", "Machine Learning", "Data Privacy"],
   description:
     "Dive into the world of Artificial Intelligence and Machine Learning. Explore real-world applications, AI while ensuring data privacy and security.",
-  link: "/register",
+  link: "/gallery",
 }, 
 {
     id: "ccna1-bootcamp-2025",
@@ -95,7 +95,7 @@ export const events = [
     tags: ["CCNA", "Routing & Switching","Official Certificate"],
     description:
       "7+ Days Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
-    link: "/register"
+    link: "/gallery",
   }, 
 {
     id: "ccna1-bootcamp-2026",
@@ -107,8 +107,51 @@ export const events = [
     tags: ["CCNA", "Routing & Switching","Official Certificate"],
     description:
       "Training Workshop-subnetting,and routing fundamentals. Includes guided labs and take-home mini-labs.",
-    link: "/register"
+    link: "/gallery",
   },
+  
+  {
+  id: "cyber-security-1-26",
+  title: "Cyber Security Drill",
+  date: "2026-03-10",
+  time: "09:00–11:00",
+  mode: "On-Campus",
+  location: "CSE Dept, PRMITR",
+  tags: ["Ethical Hacking", "Live Attack Perform", "Data Privacy"],
+  description:
+    "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
+  link: "/gallery"
+} ,
+{
+  id: "web-dev-1-26",
+  title: "Web Storm",
+  date: "2026-03-23",
+  time: "09:30–11:00",
+  mode: "On-Campus",
+  location: "CSE Dept, PRMITR",
+  tags: ["Ethical Hacking", "Live Attack Perform", "Data Privacy"],
+  description:
+    "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
+  link: "/gallery",
+  live: true
+} ,
+{
+    id: "ccna2-bootcamp-2026",
+    title: "CCNA 2 Workshop '26",
+    date: "2026-03-30",
+    time: "09:00–11:00",
+    mode: "On-Campus",
+    location: "CSE DEPT, PRMITR",
+    tags: [
+        "Switching",
+        "Inter-VLAN Routing",
+        "EtherChannel",
+    ],
+    description:
+      "CNA 2 workshop on switching technologies and network infrastructure, VLAN configuration, STP.",
+    link: "/gallery",
+    
+}
 
 
 ]
