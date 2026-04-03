@@ -149,7 +149,7 @@ export const events = [
     description:
       "CNA 2 workshop on switching technologies and network infrastructure, VLAN configuration, STP.",
     link: "/gallery",
-    live: "true"
+    live: true,
     
 }
 

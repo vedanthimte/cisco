@@ -22,7 +22,8 @@ export default function Popup() {
 
   const handleView = () => {
     setShowPopup(false);
-    navigate("https://ai.vedanthimte.in/api/register");
+    // navigate("/https://ai.vedanthimte.in/api/register");
+    window.open("https://ai.vedanthimte.in/api/register")
     // navigate("/events");
   };
 
