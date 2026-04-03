@@ -133,7 +133,6 @@ export const events = [
   description:
     "Learn core concepts of Linux, Pentesting and explore how modern enterprises design secure access solutions.",
   link: "/gallery",
-  live: true
 } ,
 {
     id: "ccna2-bootcamp-2026",
@@ -150,6 +149,7 @@ export const events = [
     description:
       "CNA 2 workshop on switching technologies and network infrastructure, VLAN configuration, STP.",
     link: "/gallery",
+    live: "true"
     
 }
 
